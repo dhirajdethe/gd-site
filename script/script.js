@@ -84,6 +84,7 @@
                 $("#project-modal-container").fadeOut(250, function(){
                     $("nav").fadeIn(250);
                     $(".page").fadeIn(250);
+                    $("#projects-container").filterizr(projectFilterOptions);
                 });
             }
         });
