@@ -1,9 +1,6 @@
 
 	$(document).ready( function() {
 
-
-
-
 		//Initializes Variables
 		var vHeight = $(window).height();
 		var vWidth = $(window).width();
@@ -43,6 +40,9 @@
             populateProject(projectID);
         });
 
+
+
+
         function populateProject(projectID) {
             console.log(projectID);
 
@@ -61,25 +61,26 @@
                         $("#project-content-project-desc").text(project.projectDetails.projectDesc);
                     }
                 });
-
             });
         }
 
 
-
-
-
-
         $("#project-modal-close").on("click", function(e){
            e.preventDefault();
+            $("#project-content-project-name").text("");
+            $("#project-content-project-desc").text("");
             $("#project-modal-container").fadeOut(250, function(){
                 $("nav").fadeIn(250);
                 $(".page").fadeIn(250);
             });
+
+
         });
 
         $(document).keyup(function(e) {
             if (e.keyCode === 27) {
+                $("#project-content-project-name").text("");
+                $("#project-content-project-desc").text("");
                 $("#project-modal-container").fadeOut(250, function(){
                     $("nav").fadeIn(250);
                     $(".page").fadeIn(250);
@@ -105,11 +106,6 @@
                     $(".publication-list").css({"padding-top":"95px"});
                     $("#projects-container").css({"padding-top":"95px"});
                 }
-
-
-
-
-
             } else {
                 $("#research-domain-list").removeClass("fixit");
                 $(".top-gradient-2").hide();

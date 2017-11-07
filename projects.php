@@ -13,7 +13,7 @@
     <!-- Need site verification from Google -->
     <meta name="google-site-verification" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
     <meta name="keywords" content="design research, typography, statical, mathematical, modelling">
     <meta name="description" content="Official website of Prof. Girish Dalvi, general information about the website">
 
@@ -141,7 +141,7 @@
                         }
 
                         echo '
-                            <a data-category="' . $item[projectCategory]. '" id="' . $item[projectID] . '" href="#" class="project-container-link filtr-item ' . $end_class . '" style="background: url(' . $item[projectThumbnailURL] . ');background-position: center; background-size: cover;">
+                            <a data-category="' . $item[projectCategory]. '" id="' . $item[projectID] . '" href="#" class="project-container-link filtr-item ' . $end_class . '" style="background: url(project-resources/project-thumbnail-pics/' . $item[projectThumbnailURL] . ');background-position: center; background-size: cover;">
                                 <div class="project-name project-name-large-container">
                                     <span class="project-name-text"> ' . $item[projectName] .  '</span>
                                 </div>
