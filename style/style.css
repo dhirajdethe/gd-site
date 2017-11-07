@@ -181,6 +181,10 @@
 						font-size: 14px;
 					}
 
+					.nav-list-links:active {
+						font-size: 14px;
+					}
+
 					.active-nav-link {
 						color: #000;
 						border-left: 1px solid #000;
