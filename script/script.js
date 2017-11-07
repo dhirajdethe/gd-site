@@ -33,13 +33,42 @@
         $(".project-container-link").on("click", function(e){
             e.preventDefault();
 
+            var projectID = $(this).attr("id");
+
             $("nav").fadeOut(250);
             $(".page").fadeOut( 250, function (){
                 $("#project-modal-container").fadeIn(250);
             });
 
-
+            populateProject(projectID);
         });
+
+        function populateProject(projectID) {
+            console.log(projectID);
+
+            $.getJSON('project-resources/projects-db.json', function(data) {
+
+                $.each(data, function( index, project){
+
+                    console.log("Main project ID: " + projectID);
+                    console.log("Sub project ID: " + project.projectID);
+                    if (project.projectID == projectID) {
+
+                        console.log("Name: " + project.projectName);
+                        console.log("Desc: " + project.projectDetails.projectDesc);
+
+                        $("#project-content-project-name").text(project.projectName);
+                        $("#project-content-project-desc").text(project.projectDetails.projectDesc);
+                    }
+                });
+
+            });
+        }
+
+
+
+
+
 
         $("#project-modal-close").on("click", function(e){
            e.preventDefault();

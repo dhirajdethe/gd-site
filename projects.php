@@ -65,10 +65,8 @@
 <div id="project-modal-container">
     <div id="project-modal-content">
         <div id="project-header" class="lato-400 project-content-header-box">
-            <h1 id="project-content-project-name">Project Name</h1><br/>
-            <p id="project-content-project-desc">Project description goes here. This is just a test. This is just a test. This is just a test. This is just a test.
-                This is just a test. This is just a test.
-                This is just a test. This is just a test.</p>
+            <h1 id="project-content-project-name"></h1><br/>
+            <p id="project-content-project-desc"></p>
         </div>
 
         <a id="project-modal-close" href="#" class="lato-400">X</a>
@@ -98,74 +96,7 @@
 
 
 <div class="page">
-    <div id="project-modal-container">
-        <div id="project-modal-content">
-            <p>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-                wecwecwecwecwkcnwkn<br/>
-            </p>
-        </div>
-    </div>
+
 
     <div id="hamburger-menu-container">
         <div id="hamburger-content-band">
