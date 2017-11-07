@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f8e2c0-0811-4258-a745-92bf1aab63ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academic.php" afterPath="$PROJECT_DIR$/academic.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-resources/projects-db.json" afterPath="$PROJECT_DIR$/project-resources/projects-db.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.php" afterPath="$PROJECT_DIR$/projects.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research.php" afterPath="$PROJECT_DIR$/research.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research/hci-for-dev.php" afterPath="$PROJECT_DIR$/research/hci-for-dev.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research/hci-se.php" afterPath="$PROJECT_DIR$/research/hci-se.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research/other.php" afterPath="$PROJECT_DIR$/research/other.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.php" afterPath="$PROJECT_DIR$/resources.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/script.js" afterPath="$PROJECT_DIR$/script/script.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +21,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="other.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/research/other.php">
+      <file leaf-file-name="projects-db.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-resources/projects-db.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hci-se.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/research/hci-se.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="other.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/research/other.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -245,7 +261,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17615000" />
+    <option name="totallyTimeSpent" value="18050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -304,12 +320,12 @@
         <state relative-caret-position="233">
           <caret line="102" column="64" lean-forward="false" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="86" />
           <folding>
-            <marker date="1510066872494" expanded="true" signature="186:205" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5009:5605" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5009:5629" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5194:5339" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5340:5604" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5428:5571" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="186:205" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5009:5605" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5009:5629" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5194:5339" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5340:5604" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5428:5571" ph="..." />
           </folding>
         </state>
       </provider>
@@ -365,14 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-resources/projects-db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3960">
@@ -389,26 +397,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1510066872494" expanded="true" signature="186:205" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5009:5605" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5009:5629" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5194:5339" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5340:5604" ph="..." />
-            <marker date="1510066872494" expanded="true" signature="5428:5571" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1510067293697" expanded="true" signature="186:205" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5009:5605" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5009:5629" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5194:5339" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5340:5604" ph="..." />
+            <marker date="1510067293697" expanded="true" signature="5428:5571" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -436,6 +444,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project-resources/projects-db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/research/hci-se.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -446,8 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/research/other.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
