@@ -6,6 +6,8 @@
 		var vWidth = $(window).width();
 		var resourceSectionNo = 0;
 
+		var scrollHeight = 0;
+
 		// Makes square project containers
 		var projectContainerWidthSmall = $(".project-container-link").width();
         var projectContainerWidthLarge = $(".project-container-link").width();
@@ -231,12 +233,15 @@
                     $("#research-selector").fadeIn(150);
                     $("nav").animate({right: vWidth}, 250, 'swing');
                     $("nav").fadeOut();
-
+                    window.scrollTo(0,scrollHeight);
                 } else {
                     this.classList.add("is-active");
                     $("#research-selector").fadeOut(150);
                     $("nav").fadeIn(50);
                     $("nav").animate({right: 0}, 250, 'swing');
+                    scrollHeight = $(window).height();
+                    console.log("Scroll HEight is: " + scrollHeight);
+
                 }
             });
         }
