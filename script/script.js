@@ -239,9 +239,7 @@
                     $("#research-selector").fadeOut(150);
                     $("nav").fadeIn(50);
                     $("nav").animate({right: 0}, 250, 'swing');
-                    scrollHeight = $(window).height();
-                    console.log("Scroll HEight is: " + scrollHeight);
-
+                    scrollHeight = $(window).scrollTop();
                 }
             });
         }
