@@ -259,6 +259,32 @@
 			padding-bottom: 10px;
 		}
 
+
+
+
+	#projects-list{
+		list-style-type: none;
+		font-family: 'Lato', sans-serif;
+		font-size: 12px;
+		font-weight: 700;
+		margin-bottom: 80px;
+		background: white;
+	}
+
+	#projects-list > li {
+		display: inline-block;
+		width: 24%;
+	}
+
+	.projects-list-active {
+		color: #2574A9;
+		border-bottom: 2px solid #2574A9;
+		padding-bottom: 10px;
+	}
+
+
+
+
 		.mention {
 			color: silver;
 		}
@@ -339,27 +365,27 @@
 
 
 	#project-thumbnail-1 {
-		background: url("../projects/project-thumbnail-pics/sample-1.jpg");
+		background: url("../project-resources/project-thumbnail-pics/sample-1.jpg");
 		background-position: center;
 		background-size: cover;
 	}
 	#project-thumbnail-2 {
-		background: url("../projects/project-thumbnail-pics/sample-2.jpg");
+		background: url("../project-resources/project-thumbnail-pics/sample-2.jpg");
 		background-position: center;
 		background-size: cover;
 	}
 	#project-thumbnail-3 {
-		background: url("../projects/project-thumbnail-pics/sample-3.jpg");
+		background: url("../project-resources/project-thumbnail-pics/sample-3.jpg");
 		background-position: center;
 		background-size: cover;
 	}
 	#project-thumbnail-4 {
-		background: url("../projects/project-thumbnail-pics/sample-4.jpg");
+		background: url("../project-resources/project-thumbnail-pics/sample-4.jpg");
 		background-position: center;
 		background-size: cover;
 	}
 	#project-thumbnail-5 {
-		background: url("../projects/project-thumbnail-pics/sample-5.jpg");
+		background: url("../project-resources/project-thumbnail-pics/sample-5.jpg");
 		background-position: center;
 		background-size: cover;
 	}
@@ -400,6 +426,8 @@
 	.carousel-thumbnail-container {
 		text-align: center;
 	}
+
+
 
 	/* =========== MOBILE CSS =================== */
 
@@ -625,6 +653,10 @@
 			}
 
 			#research-domain-list {
+				display: none;
+			}
+
+			#projects-list {
 				display: none;
 			}
 

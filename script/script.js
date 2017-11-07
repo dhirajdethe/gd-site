@@ -174,27 +174,15 @@
         }
 
 
+        $(".project-resources-link").on("click", function(e){
+            e.preventDefault();
+            $(".project-resources-link").removeClass("projects-list-active");
+            $(this).addClass("projects-list-active");
+        });
 
-        $('.scrolling-carousel').slick({
-            infinite: true,
-            arrows: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            speed: 500,
-            touchThreshold: 50,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        infinite: true,
-                    }
-                }
-            ]
-         });
+
+
+
 
 
         $("nav").show();
