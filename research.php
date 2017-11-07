@@ -67,10 +67,10 @@
         <div id="hamburger-content-band">
             <div id="mobile-selector">
                 <select id="research-selector" class="mobile-dropdown-nav">
-                    <option value="research.html" selected>ALL PUBLICATIONS</option>
-                    <option value="research/hci-for-dev.html">HCI FOR DEVELOPMENT</option>
-                    <option value="research/hci-se.html">SE + HCI</option>
-                    <option value="research/other.html">OTHERS</option>
+                    <option value="research.php" selected>ALL PUBLICATIONS</option>
+                    <option value="research/hci-for-dev.php">HCI FOR DEVELOPMENT</option>
+                    <option value="research/hci-se.php">SE + HCI</option>
+                    <option value="research/other.php">OTHERS</option>
                 </select>
             </div>
             <div id="hamburger-menu">

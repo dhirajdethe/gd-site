@@ -81,35 +81,15 @@
             </h1>
 
             <ul id="projects-list">
-                <li><a href="#" class="link projects-list-active projects-link">ALL</a></li>
-                <li><a href="#" class="link  projects-link">CATEGORY 1 </a></li>
-                <li class="center-text"><a href="#" class="link  projects-link">CATEGORY 2</a></li>
-                <li class="center-text"><a href="#" class="link  projects-link">CATEGORY 3</a></li>
+                <li><a data-category="all" href="#" class="link projects-list-active projects-link">ALL PROJECTS</a></li>
+                <li><a data-category="1" href="#" class="link  projects-link">PROJECT CATEGORY 1 </a></li>
+                <li class="center-text"><a data-category="2" href="#" class="link projects-link">PROJECT CATEGORY 2</a></li>
+                <li class="center-text"><a data-category="3" href="#" class="link projects-link">PROJECT CATEGORY 3</a></li>
             </ul>
-            <div class="top-gradient-2"></div>
 
-            <div id="projects-container">
-<!--                <a id="project-1" href="#" class="project-container-link" style="background: url('project-resources/project-thumbnail-pics/sample-1.jpg');background-position: center; background-size: cover;">-->
-<!--                    <div class="project-name project-name-small-container">-->
-<!--                        <span class="project-name-text">Project Name 1</span>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!---->
-<!--                <a id="project-2" href="#" class="project-container-link"  style="background: url('project-resources/project-thumbnail-pics/sample-2.jpg');background-position: center; background-size: cover;">-->
-<!--                    <div class="project-name project-name-small-container">-->
-<!--                        <span class="project-name-text">Project Name 2</span>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!---->
-<!--                <a id="project-3" href="#" class="project-container-link end"  style="background: url('project-resources/project-thumbnail-pics/sample-3.png');background-position: center; background-size: cover;">-->
-<!--                    <div class="project-name project-name-small-container">-->
-<!--                        <span class="project-name-text">Project Name 3</span>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!---->
+            <div class="top-gradient-3"></div>
 
-
-
+            <div id="projects-container" class="">
 
                 <?php
 
@@ -125,9 +105,9 @@
                         }
 
                         echo '
-                            <a id="' . $item[projectID] . '" href="#" class="project-container-link ' . $end_class . '" style="background: url(' . $item[projectThumbnailURL] . ');background-position: center; background-size: cover;">
+                            <a data-category="' . $item[projectCategory]. '" id="' . $item[projectID] . '" href="#" class="project-container-link filtr-item ' . $end_class . '" style="background: url(' . $item[projectThumbnailURL] . ');background-position: center; background-size: cover;">
                                 <div class="project-name project-name-large-container">
-                                    <span class="project-name-text"> ' . $project_item_count .  '</span>
+                                    <span class="project-name-text"> ' . $item[projectName] .  '</span>
                                 </div>
                             </a>
                         ';
@@ -154,6 +134,7 @@
     src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
     crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 
 </body>

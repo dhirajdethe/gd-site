@@ -44,14 +44,33 @@
         $(window).scroll(function(){
             scroll = $(window).scrollTop();
             if (scroll >= 70) {
-                console.log("stick");
+
                 $("#research-domain-list").addClass("fixit");
+                $("#projects-list").addClass("fixit");
+
                 $(".top-gradient-2").show();
-                $(".publication-list").css({"padding-top":"95px"});
+                $(".top-gradient-3").show();
+
+                if (vWidth < 768) {
+                    $(".publication-list").css({"padding-top":"0px"});
+                    $("#projects-container").css({"padding-top":"0px"});
+                } else {
+                    $(".publication-list").css({"padding-top":"95px"});
+                    $("#projects-container").css({"padding-top":"95px"});
+                }
+
+
+
+
+
             } else {
                 $("#research-domain-list").removeClass("fixit");
                 $(".top-gradient-2").hide();
                 $(".publication-list").css({"padding-top":"0px"});
+
+                $("#projects-list").removeClass("fixit");
+                $(".top-gradient-3").hide();
+                $("#projects-container").css({"padding-top":"0px"});
             }
 
             console.log(scroll);
@@ -174,11 +193,7 @@
         }
 
 
-        $(".projects-link").on("click", function(e){
-            e.preventDefault();
-            $(".projects-link").removeClass("projects-list-active");
-            $(this).addClass("projects-list-active");
-        });
+
 
 
 
@@ -186,4 +201,48 @@
 
 
         $("nav").show();
+
+
+        var projectFilterOptions = {
+            animationDuration: 0.5, //in seconds
+            filter: 'all', //Initial filter
+            callbacks: {
+                onFilteringStart: function() { },
+                onFilteringEnd: function() { },
+                onShufflingStart: function() { },
+                onShufflingEnd: function() { },
+                onSortingStart: function() { },
+                onSortingEnd: function() { }
+            },
+            delay: 0, //Transition delay in ms
+            delayMode: 'progressive', //'progressive' or 'alternate'
+            easing: 'ease-out',
+            filterOutCss: { //Filtering out animation
+                opacity: 0,
+                transform: 'scale(0.5)'
+            },
+            filterInCss: { //Filtering in animation
+                opacity: 1,
+                transform: 'scale(1)'
+            },
+            layout: 'sameSize', //See layouts
+            selector: '#projects-container',
+            setupControls: true
+        }
+
+        var filterizd = $("#projects-container").filterizr(projectFilterOptions);
+
+        $(".projects-link").on("click", function(e){
+            e.preventDefault();
+
+            $(".projects-link").removeClass("projects-list-active");
+            $(this).addClass("projects-list-active");
+
+            var projectCategory = $(this).data("category");
+
+            projectFilterOptions.filter = projectCategory;
+
+            $("#projects-container").filterizr(projectFilterOptions);
+        });
+
 	});
