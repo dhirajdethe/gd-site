@@ -283,9 +283,7 @@
             $(this).addClass("projects-list-active");
 
             var projectCategory = $(this).data("category");
-
             projectFilterOptions.filter = projectCategory;
-
             $("#projects-container").filterizr(projectFilterOptions);
         });
 
