@@ -15,6 +15,7 @@
         $(".project-name-small-container").css({"margin-top": projectContainerWidthSmall - 30});
         $(".project-name-large-container").css({"margin-top": projectContainerWidthLarge - 30});
 
+        // $(".page").fadeIn(350);
 
         var carouselWidth = $(".scrolling-carousel-thumbnail").outerWidth();
         console.log("Carousel thumbnail outer width: " + carouselWidth);
@@ -30,6 +31,8 @@
         $(".project-container-link").on("click", function(e){
             e.preventDefault();
 
+            window.scrollTo(0,0);
+
             var projectID = $(this).attr("id");
 
             $("nav").fadeOut(150);
@@ -39,8 +42,6 @@
 
             populateProject(projectID);
         });
-
-
 
 
         function populateProject(projectID) {
