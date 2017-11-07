@@ -234,12 +234,14 @@
                     $("nav").animate({right: vWidth}, 250, 'swing');
                     $("nav").fadeOut();
                     window.scrollTo(0,scrollHeight);
+                    $(".top-gradient,.top-gradient-2,.top-gradient-3").show();
                 } else {
                     this.classList.add("is-active");
                     $("#research-selector").fadeOut(150);
                     $("nav").fadeIn(50);
                     $("nav").animate({right: 0}, 250, 'swing');
                     scrollHeight = $(window).scrollTop();
+                    $(".top-gradient,.top-gradient-2,.top-gradient-3").hide();
                 }
             });
         }
