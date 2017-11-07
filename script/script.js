@@ -183,7 +183,7 @@
 
 		//Pre-set elements
 		if (vWidth < 768) {
-            $("nav").css({"height" : vHeight});
+            $("nav").css({"height" : "100vh"});
             $("nav").css({"right":vWidth});
         }
 
