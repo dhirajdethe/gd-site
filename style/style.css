@@ -381,7 +381,7 @@
 		.project-images {
 			width: 100%;
 			height: auto;
-			background: yellow;
+			background: #cccccc;
 		}
 		.mention {
 			color: silver;
@@ -405,6 +405,9 @@
 			z-index: 99999;
 		}
 
+		#project-img-master-container {
+			margin-bottom: 120px;
+		}
 
 	#resource-selector {
 		display: none;

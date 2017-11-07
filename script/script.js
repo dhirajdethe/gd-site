@@ -32,9 +32,9 @@
 
             var projectID = $(this).attr("id");
 
-            $("nav").fadeOut(250);
-            $(".page").fadeOut( 250, function (){
-                $("#project-modal-container").fadeIn(250);
+            $("nav").fadeOut(150);
+            $(".page").fadeOut( 150, function (){
+                $("#project-modal-container").fadeIn(150);
             });
 
             populateProject(projectID);
@@ -50,15 +50,19 @@
 
                 $.each(data, function( index, project){
 
-                    console.log("Main project ID: " + projectID);
-                    console.log("Sub project ID: " + project.projectID);
                     if (project.projectID == projectID) {
 
-                        console.log("Name: " + project.projectName);
-                        console.log("Desc: " + project.projectDetails.projectDesc);
+                        var buffPicMarkup = "";
 
                         $("#project-content-project-name").html(project.projectName);
                         $("#project-content-project-desc").html(project.projectDetails.projectDesc);
+
+                        $.each( project.projectDetails.projectPicsFilenames,function( index, projectPics){
+                            console.log("The links is: " + projectPics);
+                            buffPicMarkup = buffPicMarkup + '<div class="project-img-container"> <img src="' + projectPics + '" class="project-images"/> </div>';
+                        });
+
+                        $("#project-img-master-container").html(buffPicMarkup);
                     }
                 });
             });
@@ -69,7 +73,7 @@
            e.preventDefault();
             $("#project-content-project-name").html("");
             $("#project-content-project-desc").html("");
-            $("#project-modal-container").fadeOut(250, function(){
+            $("#project-modal-container").fadeOut(150, function(){
                 $("nav").fadeIn(250);
                 $(".page").fadeIn(250);
             });
@@ -81,7 +85,7 @@
             if (e.keyCode === 27) {
                 $("#project-content-project-name").html("");
                 $("#project-content-project-desc").html("");
-                $("#project-modal-container").fadeOut(250, function(){
+                $("#project-modal-container").fadeOut(150, function(){
                     $("nav").fadeIn(250);
                     $(".page").fadeIn(250);
                     $("#projects-container").filterizr(projectFilterOptions);
@@ -263,11 +267,13 @@
             easing: 'ease-out',
             filterOutCss: { //Filtering out animation
                 opacity: 0,
-                transform: 'scale(0.5)'
+                transform: 'scale(0.5)',
+                "z-index": -9999999
             },
             filterInCss: { //Filtering in animation
                 opacity: 1,
-                transform: 'scale(1)'
+                transform: 'scale(1)',
+                "z-index": 0
             },
             layout: 'sameSize', //See layouts
             selector: '#projects-container',

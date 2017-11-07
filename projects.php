@@ -63,6 +63,7 @@
 
 
 <div id="project-modal-container">
+
     <div id="project-modal-content">
         <div id="project-header" class="lato-400 project-content-header-box">
             <h1 id="project-content-project-name"></h1><br/>
@@ -72,18 +73,14 @@
         <a id="project-modal-close" href="#" class="lato-400">X</a>
 
         <div id="project-img-master-container">
-            <div class="project-img-container">
-                <img src="https://wallpapercave.com/wp/ODERg8D.jpg" class="project-images"/>
-            </div>
+
+
+
+
+
         </div>
 
 
-        <div id="project-img-master-container">
-            <div class="project-img-container">
-                <img src="http://www.wallpapersforgalaxys5.com/wp-content/uploads/Space/NASA%20Shuttle%20Wallpapers%20for%20Galaxy%20S5.jpg
-" class="project-images"/>
-            </div>
-        </div>
     </div>
 
 

@@ -5,88 +5,36 @@
     "projectCategory" : "1",
     "projectThumbnailURL" : "sample-1.jpg",
     "projectDetails" : {
-      "projectDesc" : "This is a project description of <strong>Project Name 1</strong>.<br/><br/> There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
+      "projectDesc" : "<em>This is a <span style='color:red;'>project description</span> of <strong>Project Name 1</strong></em>.<br/><br/> There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
+      "projectPicsFilenames" :
+          ["project-resources/project-files/project-1/img-1.png",
+           "project-resources/project-files/project-1/img-2.png",
+          "project-resources/project-files/project-1/img-3.jpg",
+          "project-resources/project-files/project-1/img-4.jpg"
+          ]
     }
   },
   {
     "projectID" : "project-2",
     "projectName" : "Project Name 2",
-    "projectCategory" : "3",
+    "projectCategory" : "2, 3",
     "projectThumbnailURL" : "sample-2.jpg",
     "projectDetails" : {
       "projectDesc" : "This is a project description of <strong>Project Name 2</strong>.<br/> There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
+      "projectPicsFilenames" :
+        ["http://www.wallpapersforgalaxys5.com/wp-content/uploads/Space/NASA%20Shuttle%20Wallpapers%20for%20Galaxy%20S5.jpg",
+          "http://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDUaesaNVCQO_lI9k6dUo7ixog5i6LbUtfSz7zVMEi2t3LEu1kRz5yAtAC6E23kIgkiONX6FzzKLDWVSOaVWIklxZ0fb4IWZ8X1Hj71YJ4NHyfB2tJF7UsbN0BiJE6bhXShv41HS6_O4SyQedCCZH0lpCFO89zsITeCB7I8SS-Cmlw/"
+        ]
     }
   },
   {
     "projectID" : "project-3",
     "projectName" : "Project Name 3",
-    "projectCategory" : "2, 3",
+    "projectCategory" : "2",
     "projectThumbnailURL" : "sample-3.jpg",
     "projectDetails" : {
       "projectDesc" : "This is a project description  of Project Name 3. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
-    }
-  },
-  {
-    "projectID" : "project-4",
-    "projectName" : "Project Name 4",
-    "projectCategory" : "3",
-    "projectThumbnailURL" : "sample-3.png",
-    "projectDetails" : {
-      "projectDesc" : "This is a project description  of Project Name 4. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
-    }
-  },
-  {
-    "projectID" : "project-5",
-    "projectName" : "Project Name 5",
-    "projectCategory" : "2",
-    "projectThumbnailURL" : "sample-4.jpg",
-    "projectDetails" : {
-      "projectDesc" : "This is a project description of Project Name 5. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
-    }
-  },
-  {
-    "projectID" : "project-6",
-    "projectName" : "Project Name 6",
-    "projectCategory" : "1, 2, 3",
-    "projectThumbnailURL" : "sample-5.jpg",
-    "projectDetails" : {
-      "projectDesc" : "This is a project description  of Project Name 6. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
-    }
-  },
-  {
-    "projectID" : "project-7",
-    "projectName" : "Project Name 7",
-    "projectCategory" : "1, 3",
-    "projectThumbnailURL" : "sample-1.jpg",
-    "projectDetails" : {
-      "projectDesc" : "This is a project description  of Project Name 7. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
-    }
-  },
-  {
-    "projectID" : "project-8",
-    "projectName" : "Project Name 8",
-    "projectCategory" : "2, 3",
-    "projectThumbnailURL" : "sample-2.jpg",
-    "projectDetails" : {
-      "projectDesc" : "This is a project description  of Project Name 8. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
-    }
-  },
-  {
-    "projectID" : "project-9",
-    "projectName" : "Project Name 9",
-    "projectCategory" : "1",
-    "projectThumbnailURL" : "sample-3.jpg",
-    "projectDetails" : {
-      "projectDesc" : "This is a project description of Project Name 9. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsFilenames" : ["","","",""]
+      "projectPicsFilenames" : ["",""]
     }
   }
 ]
