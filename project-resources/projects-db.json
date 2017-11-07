@@ -2,7 +2,10 @@
   {
     "projectID" : "project-1",
     "projectName" : "Project 1",
-    "projectThumbnailURL" : "",
-
+    "projectThumbnailURL" : "project-resources/project-thumbnail-pics/sample-1.jpg",
+    "projectDetails" : {
+      "projectDesc" : "This is a project description. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
+      "projectPicsFilenames" : ["","","",""]
+    }
   }
 ]

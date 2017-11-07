@@ -1,3 +1,9 @@
+<?php
+
+    $projectDBJSON = file_get_contents("project-resources/projects-db.json",true);
+    $projectDB = json_decode($projectDBJSON, true);
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -101,17 +107,42 @@
 <!--                    </div>-->
 <!--                </a>-->
 <!---->
-<!--                <a id="project-4" href="#" class="project-container-link" style="background: url('project-resources/project-thumbnail-pics/sample-4.jpg');background-position: center; background-size: cover;">-->
-<!--                    <div class="project-name project-name-large-container">-->
-<!--                        <span class="project-name-text">Project Name 5</span>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!---->
-<!--                <a id="project-5" href="#" class="project-container-link"  style="background: url('project-resources/project-thumbnail-pics/sample-5.jpg');background-position: center; background-size: cover;">-->
-<!--                    <div class="project-name project-name-large-container">-->
-<!--                        <span class="project-name-text">Project Name 5</span>-->
-<!--                    </div>-->
-<!--                </a>-->
+
+
+
+
+                <?php
+
+                    $project_item_count = 0;
+                    $end_class = "";
+
+                    foreach ($projectDB as $item) {
+
+                        if ($project_item_count == 2) {
+                            $end_class = "end";
+                        } else {
+                            $end_class = "";
+                        }
+
+                        echo '
+                            <a id="' . $item[projectID] . '" href="#" class="project-container-link ' . $end_class . '" style="background: url(' . $item[projectThumbnailURL] . ');background-position: center; background-size: cover;">
+                                <div class="project-name project-name-large-container">
+                                    <span class="project-name-text"> ' . $project_item_count .  '</span>
+                                </div>
+                            </a>
+                        ';
+
+                        if ($project_item_count == 2) {
+                            $project_item_count = 0;
+                        } else {
+                            $project_item_count = $project_item_count + 1;
+                        }
+
+
+
+                    }
+
+                ?>
             </div>
 
         </div>
