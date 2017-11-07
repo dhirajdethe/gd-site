@@ -57,8 +57,8 @@
                         console.log("Name: " + project.projectName);
                         console.log("Desc: " + project.projectDetails.projectDesc);
 
-                        $("#project-content-project-name").text(project.projectName);
-                        $("#project-content-project-desc").text(project.projectDetails.projectDesc);
+                        $("#project-content-project-name").html(project.projectName);
+                        $("#project-content-project-desc").html(project.projectDetails.projectDesc);
                     }
                 });
             });
@@ -67,8 +67,8 @@
 
         $("#project-modal-close").on("click", function(e){
            e.preventDefault();
-            $("#project-content-project-name").text("");
-            $("#project-content-project-desc").text("");
+            $("#project-content-project-name").html("");
+            $("#project-content-project-desc").html("");
             $("#project-modal-container").fadeOut(250, function(){
                 $("nav").fadeIn(250);
                 $(".page").fadeIn(250);
@@ -79,8 +79,8 @@
 
         $(document).keyup(function(e) {
             if (e.keyCode === 27) {
-                $("#project-content-project-name").text("");
-                $("#project-content-project-desc").text("");
+                $("#project-content-project-name").html("");
+                $("#project-content-project-desc").html("");
                 $("#project-modal-container").fadeOut(250, function(){
                     $("nav").fadeIn(250);
                     $(".page").fadeIn(250);

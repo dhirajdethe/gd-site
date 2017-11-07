@@ -368,8 +368,6 @@
 
 	.project-img-container {
 		width: 100%;
-		height: 400px;
-		background: pink;
 		margin-bottom: 20px;
 	}
 		#project-modal-close:hover {
@@ -380,6 +378,11 @@
 			font-family: 'Spectral', serif;
 		}
 
+		.project-images {
+			width: 100%;
+			height: auto;
+			background: yellow;
+		}
 		.mention {
 			color: silver;
 		}

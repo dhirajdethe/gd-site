@@ -5,8 +5,7 @@
     "projectCategory" : "1",
     "projectThumbnailURL" : "sample-1.jpg",
     "projectDetails" : {
-      "projectDesc" : "This is a project description of Project Name 1. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
+      "projectDesc" : "This is a project description of <strong>Project Name 1</strong>.<br/><br/> There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
       "projectPicsFilenames" : ["","","",""]
     }
   },
@@ -16,8 +15,7 @@
     "projectCategory" : "3",
     "projectThumbnailURL" : "sample-2.jpg",
     "projectDetails" : {
-      "projectDesc" : "This is a project description of Project Name 2. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
+      "projectDesc" : "This is a project description of <strong>Project Name 2</strong>.<br/> There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
       "projectPicsFilenames" : ["","","",""]
     }
   },
@@ -28,7 +26,6 @@
     "projectThumbnailURL" : "sample-3.jpg",
     "projectDetails" : {
       "projectDesc" : "This is a project description  of Project Name 3. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
       "projectPicsFilenames" : ["","","",""]
     }
   },
@@ -39,7 +36,6 @@
     "projectThumbnailURL" : "sample-3.png",
     "projectDetails" : {
       "projectDesc" : "This is a project description  of Project Name 4. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
       "projectPicsFilenames" : ["","","",""]
     }
   },
@@ -50,7 +46,6 @@
     "projectThumbnailURL" : "sample-4.jpg",
     "projectDetails" : {
       "projectDesc" : "This is a project description of Project Name 5. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
       "projectPicsFilenames" : ["","","",""]
     }
   },
@@ -61,7 +56,6 @@
     "projectThumbnailURL" : "sample-5.jpg",
     "projectDetails" : {
       "projectDesc" : "This is a project description  of Project Name 6. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
       "projectPicsFilenames" : ["","","",""]
     }
   },
@@ -72,7 +66,6 @@
     "projectThumbnailURL" : "sample-1.jpg",
     "projectDetails" : {
       "projectDesc" : "This is a project description  of Project Name 7. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
       "projectPicsFilenames" : ["","","",""]
     }
   },
@@ -83,7 +76,6 @@
     "projectThumbnailURL" : "sample-2.jpg",
     "projectDetails" : {
       "projectDesc" : "This is a project description  of Project Name 8. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
       "projectPicsFilenames" : ["","","",""]
     }
   },
@@ -94,7 +86,6 @@
     "projectThumbnailURL" : "sample-3.jpg",
     "projectDetails" : {
       "projectDesc" : "This is a project description of Project Name 9. There is nothing much here, just for demo. You can replace this text to include description of projects for your users so that they can learn about your project in detail.",
-      "projectPicsDir" : "",
       "projectPicsFilenames" : ["","","",""]
     }
   }

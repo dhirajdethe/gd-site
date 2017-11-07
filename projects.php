@@ -73,20 +73,17 @@
 
         <div id="project-img-master-container">
             <div class="project-img-container">
-                auto-height (self-adjusting height) containers to display project pics
-            </div>
-            <div class="project-img-container">
-                auto-height (self-adjusting height) containers to display project pics
-            </div>
-            <div class="project-img-container">
-                auto-height (self-adjusting height) containers to display project pics
-            </div>
-            <div class="project-img-container">
-                auto-height (self-adjusting height) containers to display project pics
+                <img src="https://wallpapercave.com/wp/ODERg8D.jpg" class="project-images"/>
             </div>
         </div>
 
 
+        <div id="project-img-master-container">
+            <div class="project-img-container">
+                <img src="http://www.wallpapersforgalaxys5.com/wp-content/uploads/Space/NASA%20Shuttle%20Wallpapers%20for%20Galaxy%20S5.jpg
+" class="project-images"/>
+            </div>
+        </div>
     </div>
 
 
