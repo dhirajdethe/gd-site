@@ -30,20 +30,20 @@
         <div id="nav-list-container">
             <ul id="nav-list">
                 <li class="nav-list-items">
-                    <a class="nav-list-links" href="index.html">HOME</a>
+                    <a class="nav-list-links" href="index.php">HOME</a>
                 </li>
                 <li class="nav-list-items">
-                    <a class="nav-list-links active-nav-link" href="academic.html">ACADEMIC</a>
+                    <a class="nav-list-links active-nav-link" href="academic.php">ACADEMIC</a>
                 </li>
                 <li class="nav-list-items">
-                    <a  class="nav-list-links" href="research.html">RESEARCH</a>
+                    <a  class="nav-list-links" href="research.php">RESEARCH</a>
                 </li>
                 <li class="nav-list-items">
-                    <a  class="nav-list-links" href="projects.html">PROJECTS</a>
+                    <a  class="nav-list-links" href="projects.php">PROJECTS</a>
                 </li>
 
                 <li class="nav-list-items">
-                    <a  class="nav-list-links" href="resources.html">RESOURCES</a>
+                    <a  class="nav-list-links" href="resources.php">RESOURCES</a>
                 </li>
             </ul>
         </div>

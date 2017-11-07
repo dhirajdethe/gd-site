@@ -28,20 +28,20 @@
         <div id="nav-list-container">
             <ul id="nav-list">
                 <li class="nav-list-items">
-                    <a class="nav-list-links" href="index.html">HOME</a>
+                    <a class="nav-list-links" href="index.php">HOME</a>
                 </li>
                 <li class="nav-list-items">
-                    <a class="nav-list-links" href="academic.html">ACADEMIC</a>
+                    <a class="nav-list-links" href="academic.php">ACADEMIC</a>
                 </li>
                 <li class="nav-list-items">
-                    <a  class="nav-list-links" href="research.html">RESEARCH</a>
+                    <a  class="nav-list-links" href="research.php">RESEARCH</a>
                 </li>
                 <li class="nav-list-items">
-                    <a  class="nav-list-links active-nav-link" href="projects.html">PROJECTS</a>
+                    <a  class="nav-list-links active-nav-link" href="projects.php">PROJECTS</a>
                 </li>
 
                 <li class="nav-list-items">
-                    <a  class="nav-list-links" href="resources.html">RESOURCES</a>
+                    <a  class="nav-list-links" href="resources.php">RESOURCES</a>
                 </li>
             </ul>
         </div>
@@ -82,35 +82,35 @@
             <div class="top-gradient-2"></div>
 
             <div id="projects-container">
-                <!--<a id="project-thumbnail-1" href="#" class="project-container-link project-container-link-small project-container-link-push-right">-->
-                    <!--<div class="project-name project-name-small-container">-->
-                        <!--<span class="project-name-text">Project Name 1</span>-->
-                    <!--</div>-->
-                <!--</a>-->
-
-                <!--<a id="project-thumbnail-2" href="#" class="project-container-link  project-container-link-small  project-container-link-push-right">-->
-                    <!--<div class="project-name project-name-small-container">-->
-                        <!--<span class="project-name-text">Project Name 2</span>-->
-                    <!--</div>-->
-                <!--</a>-->
-
-                <!--<a id="project-thumbnail-3" href="#" class="project-container-link  project-container-link-small  project-container-link-first">-->
-                    <!--<div class="project-name project-name-small-container">-->
-                        <!--<span class="project-name-text">Project Name 3</span>-->
-                    <!--</div>-->
-                <!--</a>-->
-
-                <!--<a id="project-thumbnail-4" href="#" class="project-container-link  project-container-link-large  project-container-link-push-right">-->
-                    <!--<div class="project-name project-name-large-container">-->
-                        <!--<span class="project-name-text">Project Name 5</span>-->
-                    <!--</div>-->
-                <!--</a>-->
-
-                <!--<a id="project-thumbnail-5" href="#" class="project-container-link  project-container-link-large">-->
-                    <!--<div class="project-name project-name-large-container">-->
-                        <!--<span class="project-name-text">Project Name 5</span>-->
-                    <!--</div>-->
-                <!--</a>-->
+<!--                <a id="project-1" href="#" class="project-container-link" style="background: url('project-resources/project-thumbnail-pics/sample-1.jpg');background-position: center; background-size: cover;">-->
+<!--                    <div class="project-name project-name-small-container">-->
+<!--                        <span class="project-name-text">Project Name 1</span>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!---->
+<!--                <a id="project-2" href="#" class="project-container-link"  style="background: url('project-resources/project-thumbnail-pics/sample-2.jpg');background-position: center; background-size: cover;">-->
+<!--                    <div class="project-name project-name-small-container">-->
+<!--                        <span class="project-name-text">Project Name 2</span>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!---->
+<!--                <a id="project-3" href="#" class="project-container-link end"  style="background: url('project-resources/project-thumbnail-pics/sample-3.png');background-position: center; background-size: cover;">-->
+<!--                    <div class="project-name project-name-small-container">-->
+<!--                        <span class="project-name-text">Project Name 3</span>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!---->
+<!--                <a id="project-4" href="#" class="project-container-link" style="background: url('project-resources/project-thumbnail-pics/sample-4.jpg');background-position: center; background-size: cover;">-->
+<!--                    <div class="project-name project-name-large-container">-->
+<!--                        <span class="project-name-text">Project Name 5</span>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!---->
+<!--                <a id="project-5" href="#" class="project-container-link"  style="background: url('project-resources/project-thumbnail-pics/sample-5.jpg');background-position: center; background-size: cover;">-->
+<!--                    <div class="project-name project-name-large-container">-->
+<!--                        <span class="project-name-text">Project Name 5</span>-->
+<!--                    </div>-->
+<!--                </a>-->
             </div>
 
         </div>

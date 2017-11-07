@@ -29,20 +29,20 @@
         <div id="nav-list-container">
             <ul id="nav-list">
                 <li class="nav-list-items">
-                    <a class="nav-list-links" href="../index.html">HOME</a>
+                    <a class="nav-list-links" href="../index.php">HOME</a>
                 </li>
                 <li class="nav-list-items">
-                    <a class="nav-list-links" href="../academic.html">ACADEMIC</a>
+                    <a class="nav-list-links" href="../academic.php">ACADEMIC</a>
                 </li>
                 <li class="nav-list-items">
-                    <a  class="nav-list-links active-nav-link" href="../research.html">RESEARCH</a>
+                    <a  class="nav-list-links active-nav-link" href="../research.php">RESEARCH</a>
                 </li>
                 <li class="nav-list-items">
-                    <a  class="nav-list-links" href="../projects.html">PROJECTS</a>
+                    <a  class="nav-list-links" href="../projects.php">PROJECTS</a>
                 </li>
 
                 <li class="nav-list-items">
-                    <a  class="nav-list-links" href="../resources.html">RESOURCES</a>
+                    <a  class="nav-list-links" href="../resources.php">RESOURCES</a>
                 </li>
             </ul>
         </div>
@@ -61,8 +61,8 @@
             <div id="mobile-selector">
                 <select id="research-selector" class="mobile-dropdown-nav">
                     <option value="../research.html">ALL PUBLICATIONS</option>
-                    <option value="hci-for-dev.html" selected>HCI FOR DEVELOPMENT</option>
-                    <option value="hci-se.html">SE + HCI</option>
+                    <option value="hci-for-dev.html">HCI FOR DEVELOPMENT</option>
+                    <option value="hci-se.html" selected>SE + HCI</option>
                     <option value="other.html">OTHERS</option>
                 </select>
             </div>
@@ -79,14 +79,14 @@
         <div class="page-content">
             <section>
                 <h1 class="section-header">
-                    Research - HCI for Development
+                    Research - HCI + SE
                 </h1>
 
                 <ul id="research-domain-list">
-                    <li><a href="../research.html" class="link">ALL PUBLICATIONS</a></li>
-                    <li><a href="hci-for-dev.html" class="link research-domain-list-active">DESIGN FOR DEVELOPMENT</a></li>
-                    <li class="center-text"><a href="hci-se.html" class="link">HCI + SE</a></li>
-                    <li class="center-text"><a href="other.html" class="link">OTHERS</a></li>
+                    <li><a href="../research.php" class="link">ALL PUBLICATIONS</a></li>
+                    <li><a href="hci-for-dev.php" class="link">DESIGN FOR DEVELOPMENT</a></li>
+                    <li class="center-text"><a href="hci-se.php" class="link research-domain-list-active">HCI + SE</a></li>
+                    <li class="center-text"><a href="other.php" class="link">OTHERS</a></li>
                 </ul>
                 <div class="top-gradient-2"></div>
 
@@ -117,9 +117,9 @@
 
 
 <script
-    src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/5a437df92c.js"></script>
 <script type="text/javascript" src="../script/script.js"></script>
 </body>

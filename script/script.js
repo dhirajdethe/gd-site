@@ -10,10 +10,10 @@
 		var resourceSectionNo = 0;
 
 		// Makes square project containers
-		var projectContainerWidthSmall = $(".project-container-link-small").width();
-        var projectContainerWidthLarge = $(".project-container-link-large").width();
-        $(".project-container-link-small").css({"height" : projectContainerWidthSmall});
-        $(".project-container-link-large").css({"height" : projectContainerWidthLarge});
+		var projectContainerWidthSmall = $(".project-container-link").width();
+        var projectContainerWidthLarge = $(".project-container-link").width();
+        $(".project-container-link").css({"height" : projectContainerWidthSmall});
+        $(".project-container-link").css({"height" : projectContainerWidthLarge});
 
         $(".project-name-small-container").css({"margin-top": projectContainerWidthSmall - 30});
         $(".project-name-large-container").css({"margin-top": projectContainerWidthLarge - 30});
@@ -174,9 +174,9 @@
         }
 
 
-        $(".project-resources-link").on("click", function(e){
+        $(".projects-link").on("click", function(e){
             e.preventDefault();
-            $(".project-resources-link").removeClass("projects-list-active");
+            $(".projects-link").removeClass("projects-list-active");
             $(this).addClass("projects-list-active");
         });
 
