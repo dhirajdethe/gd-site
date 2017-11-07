@@ -30,15 +30,33 @@
         }
 
 
-        $(".project-container-link").on("mouseenter", function(){
+        $(".project-container-link").on("click", function(e){
+            e.preventDefault();
 
-            // $($(this).closest(".project-name")).animate({
-            //     marginTop: "-=60"
-            // },1000, 'easeInOutCirc');
+            $("nav").fadeOut(250);
+            $(".page").fadeOut( 250, function (){
+                $("#project-modal-container").fadeIn(250);
+            });
+
 
         });
 
+        $("#project-modal-close").on("click", function(e){
+           e.preventDefault();
+            $("#project-modal-container").fadeOut(250, function(){
+                $("nav").fadeIn(250);
+                $(".page").fadeIn(250);
+            });
+        });
 
+        $(document).keyup(function(e) {
+            if (e.keyCode === 27) {
+                $("#project-modal-container").fadeOut(250, function(){
+                    $("nav").fadeIn(250);
+                    $(".page").fadeIn(250);
+                });
+            }
+        });
 
 
         $(window).scroll(function(){
