@@ -30,8 +30,10 @@
 
         $(".project-container-link").on("click", function(e){
             e.preventDefault();
-
-           $("#project-modal-container").animate({ scrollTop: 0}, 0);
+            $("#project-img-master-container").html("");
+            $("#project-content-project-name").html("");
+            $("#project-content-project-desc").html("");
+           $("#project-img-master-container").animate({ scrollTop: 0}, 0);
 
             var projectID = $(this).attr("id");
 
@@ -72,6 +74,7 @@
            e.preventDefault();
             $("#project-content-project-name").html("");
             $("#project-content-project-desc").html("");
+            $("#project-img-master-container").html("");
             $("#project-modal-container").fadeOut(150, function(){
                 $("nav").fadeIn(250);
                 $(".page").fadeIn(250);
@@ -84,6 +87,7 @@
             if (e.keyCode === 27) {
                 $("#project-content-project-name").html("");
                 $("#project-content-project-desc").html("");
+                $("#project-img-master-container").html("");
                 $("#project-modal-container").fadeOut(150, function(){
                     $("nav").fadeIn(250);
                     $(".page").fadeIn(250);
