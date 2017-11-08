@@ -544,7 +544,7 @@
 			width: 100%;
 			height: 100vh;
 			background: #fff;
-			z-index: 9999;
+			z-index: 999999;
 			display: none;
 		}
 
@@ -697,7 +697,7 @@
 			width: 100%;
 			background: white;
 			height: 70px;
-			z-index: 99999;
+			z-index: 9999999;
 		}
 
 
