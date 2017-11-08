@@ -33,7 +33,8 @@
             $("#project-img-master-container").html("");
             $("#project-content-project-name").html("");
             $("#project-content-project-desc").html("");
-           $("#project-img-master-container").animate({ scrollTop: 0}, 0);
+
+
 
             var projectID = $(this).attr("id");
 
@@ -62,7 +63,7 @@
                         $.each( project.projectDetails.projectPicsFilenames,function( index, projectPics){
                             buffPicMarkup = buffPicMarkup + '<div class="project-img-container"> <img src="' + projectPics + '" class="project-images"/> </div>';
                         });
-
+                        window.scrollTop = 0;
                         $("#project-img-master-container").html(buffPicMarkup);
                     }
                 });
