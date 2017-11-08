@@ -8,6 +8,19 @@
 
 		var scrollHeight = 0;
 
+        var devnagriSectionHeight = $("#resources-section-1").offset().top;
+        var typographySectionHeight = $("#resources-section-2").offset().top;
+        var historiographySectionHeight = $("#resources-section-3").offset().top;
+        var bookspapersSectionHeight = $("#resources-section-4").offset().top;
+        var latintypeSectionHeight = $("#resources-section-5").offset().top;
+
+        console.log("Dev height: " + devnagriSectionHeight);
+        console.log("Typo height: " + typographySectionHeight);
+        console.log("Historio height: " + historiographySectionHeight);
+        console.log("Bookspapers height: " + bookspapersSectionHeight);
+        console.log("Latintype height: " + latintypeSectionHeight);
+
+
 		// Makes square project containers
 		var projectContainerWidthSmall = $(".project-container-link").width();
         var projectContainerWidthLarge = $(".project-container-link").width();
@@ -126,6 +139,7 @@
 
             console.log(scroll);
 
+
             if (scroll > 1200) {
                 $("#resource-selector").fadeIn(250);
                 if (scroll < 4362) {
@@ -160,27 +174,27 @@
             e.preventDefault();
             if ($(this).val() == "devanagari") {
                 $('html, body').animate({
-                    scrollTop: 1220
+                    scrollTop: devnagriSectionHeight
                 },1000, 'easeInOutCirc');
 
             } else if ($(this).val() == "typography-history") {
                 $('html, body').animate({
-                    scrollTop: 4362
+                    scrollTop: typographySectionHeight
                 },1000, 'easeInOutCirc');
 
             } else if ($(this).val() == "historiography") {
                 $('html, body').animate({
-                    scrollTop: 7337
+                    scrollTop: historiographySectionHeight
                 },1000, 'easeInOutCirc');
 
             } else if ($(this).val() == "books-papers") {
                 $('html, body').animate({
-                    scrollTop: 10759
+                    scrollTop: bookspapersSectionHeight
                 },1000, 'easeInOutCirc');
 
             } else if ($(this).val() == "latin-type-design") {
                 $('html, body').animate({
-                    scrollTop: 11895
+                    scrollTop: latintypeSectionHeight
                 },1000, 'easeInOutCirc');
             }
         });

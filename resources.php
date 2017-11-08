@@ -119,7 +119,6 @@
 
             <div class="section-seperator"></div>
 
-
             <section id="resources-section-1">
                 <h1 class="section-header">
                     Devanagari Typography / Lettering / Calligraphy
