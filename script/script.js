@@ -63,7 +63,7 @@
                         $.each( project.projectDetails.projectPicsFilenames,function( index, projectPics){
                             buffPicMarkup = buffPicMarkup + '<div class="project-img-container"> <img src="' + projectPics + '" class="project-images"/> </div>';
                         });
-                        window.scrollTop = 0;
+                        $('html, body').animate({scrollTop: '0px'}, 0);
                         $("#project-img-master-container").html(buffPicMarkup);
                     }
                 });
