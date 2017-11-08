@@ -237,7 +237,7 @@
                     $("nav").animate({right: vWidth}, 250, 'swing');
                     $("nav").fadeOut();
                     window.scrollTo(0,scrollHeight);
-
+                    $("body").css({"overflow":"auto"});
                 } else {
                     this.classList.add("is-active");
                     $("#research-selector").fadeOut(250);
@@ -245,7 +245,7 @@
                     $("nav").fadeIn(50);
                     $("nav").animate({right: 0}, 250, 'swing');
                     scrollHeight = $(window).scrollTop();
-
+                    $("body").css({"overflow":"hidden"});
                 }
             });
         }
