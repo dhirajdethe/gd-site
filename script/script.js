@@ -8,13 +8,6 @@
 
 		var scrollHeight = 0;
 
-        console.log("Dev height: " + devnagriSectionHeight);
-        console.log("Typo height: " + typographySectionHeight);
-        console.log("Historio height: " + historiographySectionHeight);
-        console.log("Bookspapers height: " + bookspapersSectionHeight);
-        console.log("Latintype height: " + latintypeSectionHeight);
-
-
 		// Makes square project containers
 		var projectContainerWidthSmall = $(".project-container-link").width();
         var projectContainerWidthLarge = $(".project-container-link").width();
