@@ -8,12 +8,6 @@
 
 		var scrollHeight = 0;
 
-        var devnagriSectionHeight = $("#resources-section-1").offset().top - 90;
-        var typographySectionHeight = $("#resources-section-2").offset().top - 90;
-        var historiographySectionHeight = $("#resources-section-3").offset().top - 90;
-        var bookspapersSectionHeight = $("#resources-section-4").offset().top - 90;
-        var latintypeSectionHeight = $("#resources-section-5").offset().top - 90;
-
         console.log("Dev height: " + devnagriSectionHeight);
         console.log("Typo height: " + typographySectionHeight);
         console.log("Historio height: " + historiographySectionHeight);
