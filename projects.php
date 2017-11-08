@@ -166,6 +166,8 @@
     crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
-
+<script type="text/javascript">
+    $("#projects-container").filterizr(projectFilterOptions);
+</script>
 </body>
 </html>

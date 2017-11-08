@@ -20,8 +20,6 @@
         // $(".page").fadeIn(350);
 
         var carouselWidth = $(".scrolling-carousel-thumbnail").outerWidth();
-        console.log("Carousel thumbnail outer width: " + carouselWidth);
-        console.log("Carousel thumbnail height: " + $(".scrolling-carousel-thumbnail").height());
 
         if (vWidth < 768) {
             $(".scrolling-carousel-thumbnail").css({"height" : carouselWidth * 0.50});
@@ -32,8 +30,6 @@
 
         $(".project-container-link").on("click", function(e){
             e.preventDefault();
-
-            window.scrollTo(0,0);
 
             var projectID = $(this).attr("id");
 
@@ -47,7 +43,6 @@
 
 
         function populateProject(projectID) {
-            console.log(projectID);
 
             $.getJSON('project-resources/projects-db.json', function(data) {
 
@@ -61,7 +56,6 @@
                         $("#project-content-project-desc").html(project.projectDetails.projectDesc);
 
                         $.each( project.projectDetails.projectPicsFilenames,function( index, projectPics){
-                            console.log("The links is: " + projectPics);
                             buffPicMarkup = buffPicMarkup + '<div class="project-img-container"> <img src="' + projectPics + '" class="project-images"/> </div>';
                         });
 
@@ -123,29 +117,6 @@
                 $(".top-gradient-3").hide();
                 $("#projects-container").css({"padding-top":"0px"});
             }
-
-            console.log(scroll);
-
-
-            if (scroll > devnagriSectionHeight) {
-                $("#resource-selector").fadeIn(250);
-                if (scroll < typographySectionHeight) {
-                    $("#resource-selector").val("devanagari");
-                } else if (scroll < historiographySectionHeight) {
-                    $("#resource-selector").val("typography-history");
-                } else if (scroll < bookspapersSectionHeight) {
-                    $("#resource-selector").val("historiography");
-                } else if (scroll < latintypeSectionHeight) {
-                    $("#resource-selector").val("books-papers");
-                } else  {
-                    $("#resource-selector").val("latin-type-design");
-                }
-            } else {
-                $("#resource-selector").val(" --- ");
-                $("#resource-selector").fadeOut(250);
-            }
-
-
         });
 
 
@@ -205,7 +176,7 @@
             } else {
                 var top = $('body').find($(this).attr('href')).offset().top - 65;
             }
-            console.log(top);
+
 
             $('html, body').animate({
                 scrollTop: top
@@ -291,7 +262,6 @@
             setupControls: true
         }
 
-        var filterizd = $("#projects-container").filterizr(projectFilterOptions);
 
         $(".projects-link").on("click", function(e){
             e.preventDefault();
