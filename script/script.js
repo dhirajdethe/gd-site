@@ -31,6 +31,8 @@
         $(".project-container-link").on("click", function(e){
             e.preventDefault();
 
+           $("#project-modal-container").animate({ scrollTop: 0}, 0);
+
             var projectID = $(this).attr("id");
 
             $("nav").fadeOut(150);
