@@ -140,15 +140,15 @@
             console.log(scroll);
 
 
-            if (scroll > 1200) {
+            if (scroll > devnagriSectionHeight) {
                 $("#resource-selector").fadeIn(250);
-                if (scroll < 4362) {
+                if (scroll < typographySectionHeight) {
                     $("#resource-selector").val("devanagari");
-                } else if (scroll < 7337) {
+                } else if (scroll < historiographySectionHeight) {
                     $("#resource-selector").val("typography-history");
-                } else if (scroll < 10759) {
+                } else if (scroll < bookspapersSectionHeight) {
                     $("#resource-selector").val("historiography");
-                } else if (scroll < 11895) {
+                } else if (scroll < latintypeSectionHeight) {
                     $("#resource-selector").val("books-papers");
                 } else  {
                     $("#resource-selector").val("latin-type-design");
