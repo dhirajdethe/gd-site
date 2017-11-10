@@ -15,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="139" column="11" lean-forward="true" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+            <state relative-caret-position="336">
+              <caret line="137" column="69" lean-forward="false" selection-start-line="137" selection-start-column="69" selection-end-line="137" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resources.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resources.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="239" column="25" lean-forward="true" selection-start-line="239" selection-start-column="25" selection-end-line="239" selection-end-column="25" />
+            <state relative-caret-position="100">
+              <caret line="240" column="48" lean-forward="false" selection-start-line="240" selection-start-column="48" selection-end-line="240" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -252,12 +252,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510022833034</updated>
       <workItem from="1510022835921" duration="1332000" />
-      <workItem from="1510303124673" duration="14806000" />
+      <workItem from="1510303124673" duration="14982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51312000" />
+    <option name="totallyTimeSpent" value="51488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -503,18 +503,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/script.js">
+    <entry file="file://$PROJECT_DIR$/resources.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="139" column="11" lean-forward="true" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
+        <state relative-caret-position="100">
+          <caret line="240" column="48" lean-forward="false" selection-start-line="240" selection-start-column="48" selection-end-line="240" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources.php">
+    <entry file="file://$PROJECT_DIR$/script/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="239" column="25" lean-forward="true" selection-start-line="239" selection-start-column="25" selection-end-line="239" selection-end-column="25" />
+        <state relative-caret-position="336">
+          <caret line="137" column="69" lean-forward="false" selection-start-line="137" selection-start-column="69" selection-end-line="137" selection-end-column="69" />
           <folding />
         </state>
       </provider>
