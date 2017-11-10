@@ -15,7 +15,7 @@
     include("_includes/meta.php");
 
     ?>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css" media="none" onload="if(media!='all')media='all'">
 </head>
 
 <body>
