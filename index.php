@@ -9,7 +9,7 @@
     include("_includes/meta.php");
 
     ?>
-    <link rel="stylesheet" type="text/css" href="style/style.css" media="none" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 
 
@@ -54,8 +54,8 @@
 </div>
 
 
-<script  async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script  async type="text/javascript" src="script/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
 
 </body>
 </html>
