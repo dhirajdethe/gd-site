@@ -507,6 +507,10 @@
 			margin-left:7.5%;
 		}
 
+		#resource-selector {
+			display: block;
+		}
+
 		nav {
 			width: 100%;
 			height: 100vh;

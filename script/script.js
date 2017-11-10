@@ -159,7 +159,6 @@
             e.preventDefault();
 
             if (vWidth < 768) {
-                $("#resource-selector").show();
                 var resourceContainer = $(this).attr('href');
                 if (resourceContainer == "#resources-section-1") {
                     $("#resource-selector").val("devanagari");
@@ -207,8 +206,6 @@
                 } else {
                     this.classList.add("is-active");
                     $("#research-selector").hide();
-                    $("#resource-selector").hide();
-
                     $("nav").animate({right: 0}, 250, 'swing');
                     scrollHeight = $(window).scrollTop();
                     $("body").css({"overflow":"hidden"});
