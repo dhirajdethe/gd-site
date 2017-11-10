@@ -3,10 +3,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
+<head>
+    <?php
+
     $page_title = "Research";
-    include("_includes/head.php");
-?>
+    include("_includes/meta.php");
+
+    ?>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
 
 <body>
 
@@ -72,7 +77,12 @@
 </div>
 
 
-<?php include("_includes/js-scripts.php"); ?>
+<script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
 
 <script type="text/javascript" src="script/script.js"></script>
 </body>
