@@ -62,7 +62,7 @@
                         $.each( project.projectDetails.projectPicsFilenames,function( index, projectPics){
                             buffPicMarkup = buffPicMarkup + '<div class="project-img-container"> <img src="' + projectPics + '" class="project-images"/> </div>';
                         });
-                        $('html, body').animate({scrollTop: '0px'}, 0);
+                        $('html, body').scrollTop(0);
                         $("#project-img-master-container").html(buffPicMarkup);
                     }
                 });
@@ -126,40 +126,18 @@
         });
 
 
-        $("#research-selector").change(function(){
-            if ($(this).val()!='') {
-                window.location.href=$(this).val();
-            } else {
-                alert("There seems to be an error. Please send an email to me.");
-            }
-        });
-
         $("#resource-selector").change(function(e){
             e.preventDefault();
             if ($(this).val() == "devanagari") {
-                $('html, body').animate({
-                    scrollTop: devnagriSectionHeight
-                },1000, 'easeInOutCirc');
-
+                $('html, body').scrollTop(devnagriSectionHeight);
             } else if ($(this).val() == "typography-history") {
-                $('html, body').animate({
-                    scrollTop: typographySectionHeight
-                },1000, 'easeInOutCirc');
-
+                $('html, body').scrollTop(typographySectionHeight);
             } else if ($(this).val() == "historiography") {
-                $('html, body').animate({
-                    scrollTop: historiographySectionHeight
-                },1000, 'easeInOutCirc');
-
+                $('html, body').scrollTop(historiographySectionHeight);
             } else if ($(this).val() == "books-papers") {
-                $('html, body').animate({
-                    scrollTop: bookspapersSectionHeight
-                },1000, 'easeInOutCirc');
-
+                $('html, body').scrollTop(bookspapersSectionHeight);
             } else if ($(this).val() == "latin-type-design") {
-                $('html, body').animate({
-                    scrollTop: latintypeSectionHeight
-                },1000, 'easeInOutCirc');
+                $('html, body').scrollTop(latintypeSectionHeight);
             }
         });
 
@@ -280,10 +258,16 @@
             e.preventDefault();
             $(".research-link").removeClass("link-active");
             $(this).addClass("link-active");
-
             $(".publication-container").hide();
+
             var containerActive = $(this).data("publication-container-active");
-            console.log(containerActive);
+
+            $("#" + containerActive).show();
+        });
+
+        $("#research-selector").change(function(){
+            var containerActive = $(this).val();
+            $(".publication-container").hide();
             $("#" + containerActive).show();
         });
 

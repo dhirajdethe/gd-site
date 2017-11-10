@@ -84,10 +84,8 @@
             <div id="projects-container" class="">
 
                 <?php
-
                     $project_item_count = 0;
                     $end_class = "";
-
                     foreach ($projectDB as $item) {
 
                         if ($project_item_count == 2) {
@@ -95,7 +93,6 @@
                         } else {
                             $end_class = "";
                         }
-
                         echo '
                             <a data-category="' . $item[projectCategory]. '" id="' . $item[projectID] . '" href="#" class="project-container-link filtr-item ' . $end_class . '" style="background: url(project-resources/project-thumbnail-pics/' . $item[projectThumbnailURL] . ');background-position: center; background-size: cover;">
                                 <div class="project-name project-name-large-container">
@@ -109,9 +106,6 @@
                         } else {
                             $project_item_count = $project_item_count + 1;
                         }
-
-
-
                     }
 
                 ?>
@@ -121,7 +115,7 @@
     </div>
 </div>
 
-<script type="text/javascript" src="script/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 <script type="text/javascript">

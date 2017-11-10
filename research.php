@@ -26,10 +26,10 @@
         <div id="hamburger-content-band">
             <div id="mobile-selector" class="sans-serif">
                 <select id="research-selector" class="mobile-dropdown-nav">
-                    <option value="research.php" selected>ALL PUBLICATIONS</option>
-                    <option value="research/hci-for-dev.php">HCI FOR DEVELOPMENT</option>
-                    <option value="research/hci-se.php">SE + HCI</option>
-                    <option value="research/other.php">OTHERS</option>
+                    <option value="publication-container-1" selected>ALL PUBLICATIONS</option>
+                    <option value="publication-container-2">HCI FOR DEVELOPMENT</option>
+                    <option value="publication-container-3">SE + HCI</option>
+                    <option value="publication-container-4">OTHERS</option>
                 </select>
             </div>
             <div id="hamburger-menu">
@@ -135,7 +135,7 @@
 </div>
 
 
-<script type="text/javascript" src="script/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 
 </body>

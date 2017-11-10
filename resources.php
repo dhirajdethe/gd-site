@@ -228,7 +228,7 @@
     </div>
 </div>
 
-<script type="text/javascript" src="script/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 
 <script type="text/javascript">
@@ -239,7 +239,6 @@
     var latintypeSectionHeight = $("#resources-section-5").offset().top - 120;
 
     $(window).scroll(function(){
-
         if (scroll > devnagriSectionHeight) {
             $("#resource-selector").fadeIn(250);
             if (scroll < typographySectionHeight) {
