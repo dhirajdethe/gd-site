@@ -115,10 +115,10 @@
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
-<script type="text/javascript" src="script/script.js"></script>
-<script type="text/javascript">
+<script  async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script  async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
+<script  async type="text/javascript" src="script/script.js"></script>
+<script  async type="text/javascript">
     $("#projects-container").filterizr(projectFilterOptions);
 </script>
 

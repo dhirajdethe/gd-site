@@ -11,14 +11,11 @@
     ?>
     <link rel="stylesheet" type="text/css" href="style/style.css" media="none" onload="if(media!='all')media='all'">
 </head>
-
-
 <body>
 
 <?php include("_includes/nav.php"); ?>
 
 <div class="page">
-
     <div id="hamburger-menu-container">
 
         <div id="hamburger-content-band">
@@ -228,10 +225,10 @@
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="script/script.js"></script>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script async type="text/javascript" src="script/script.js"></script>
 
-<script type="text/javascript">
+<script async type="text/javascript">
     var devnagriSectionHeight = $("#resources-section-1").offset().top - 120;
     var typographySectionHeight = $("#resources-section-2").offset().top - 120;
     var historiographySectionHeight = $("#resources-section-3").offset().top - 120;
