@@ -128,14 +128,19 @@
             e.preventDefault();
             if ($(this).val() == "devanagari") {
                 $('html, body').scrollTo("#resources-section-1");
+                $("#resource-selector").val("devanagari");
             } else if ($(this).val() == "typography-history") {
                 $('html, body').scrollTo("#resources-section-2");
+                $("#resource-selector").val("typography-history");
             } else if ($(this).val() == "historiography") {
                 $('html, body').scrollTo("#resources-section-3");
+                $("#resource-selector").val("historiography");
             } else if ($(this).val() == "books-papers") {
                 $('html, body').scrollTo("#resources-section-4");
+                $("#resource-selector").val("books-papers");
             } else if ($(this).val() == "latin-type-design") {
                 $('html, body').scrollTo("#resources-section-5");
+                $("#resource-selector").val("latin-type-design");
             }
         });
 
@@ -154,14 +159,24 @@
             e.preventDefault();
 
             if (vWidth < 768) {
-                var top = $('body').find($(this).attr('href')).offset().top - 90;
+                $("#resource-selector").show();
+                var resourceContainer = $(this).attr('href');
+                if (resourceContainer == "#resources-section-1") {
+                    $("#resource-selector").val("devanagari");
+                } else if (resourceContainer == "#resources-section-2") {
+                    $("#resource-selector").val("typography-history");
+                } else if (resourceContainer == "#resources-section-3") {
+                    $("#resource-selector").val("historiography");
+                } else if (resourceContainer == "#resources-section-4") {
+                    $("#resource-selector").val("books-papers");
+                } else if (resourceContainer == "#resources-section-5") {
+                    $("#resource-selector").val("latin-type-design");
+                }
             } else {
                 var top = $('body').find($(this).attr('href')).offset().top - 65;
             }
 
             $('html, body').scrollTop(top);
-
-
         });
 
 
