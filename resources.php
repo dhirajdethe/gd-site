@@ -37,7 +37,7 @@
     </div>
 
 
-    <div class="top-gradient"></div>
+<!--    <div class="top-gradient"></div>-->
 
 
 

@@ -387,7 +387,7 @@
 
 	.project-container-link {
 		display: inline-block;
-		width: 35%;
+		width: 32%;
 		margin-bottom: 1.5%;
 		background: #ccc;
 		filter: grayscale(100%);
@@ -396,7 +396,6 @@
 		overflow:hidden;
 		text-align: center;
 		text-decoration: none;
-		margin-right: 1.8%;
 	}
 
 		.project-container-link:hover {

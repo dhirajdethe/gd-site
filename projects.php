@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="top-gradient"></div>
+<!--    <div class="top-gradient"></div>-->
     <div class="page-container">
         <div class="page-content">
 
@@ -79,7 +79,7 @@
                 <li class="center-text"><a data-category="3" href="#" class="link projects-link">PROJECT CATEGORY 3</a></li>
             </ul>
 
-            <div class="top-gradient-3"></div>
+<!--            <div class="top-gradient-3"></div>-->
 
             <div id="projects-container" class="">
 
@@ -119,7 +119,9 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 <script type="text/javascript">
-    $("#projects-container").filterizr(projectFilterOptions);
+    $(document).ready(function(){
+        $("#projects-container").filterizr(projectFilterOptions);
+    });
 </script>
 
 </body>

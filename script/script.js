@@ -187,14 +187,14 @@
                         $("#resource-selector").show();
                     }
                     $("nav").animate({right: vWidth}, 250, 'swing');
-                    $("nav").hide();
+
                     window.scrollTo(0,scrollHeight);
                     $("body").css({"overflow":"auto"});
                 } else {
                     this.classList.add("is-active");
                     $("#research-selector").hide();
                     $("#resource-selector").hide();
-                    $("nav").hide();
+
                     $("nav").animate({right: 0}, 250, 'swing');
                     scrollHeight = $(window).scrollTop();
                     $("body").css({"overflow":"hidden"});

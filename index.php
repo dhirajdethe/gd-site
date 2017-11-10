@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <div class="top-gradient"></div>
+<!--    <div class="top-gradient"></div>-->
     <div class="page-container">
         <div class="page-content">
             <p id="intro-text">
