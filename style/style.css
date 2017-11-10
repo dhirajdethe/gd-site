@@ -381,10 +381,6 @@
 			margin-bottom: 120px;
 		}
 
-	#resource-selector {
-		display: none;
-	}
-
 	.project-container-link {
 		display: inline-block;
 		width: 32%;
@@ -505,10 +501,6 @@
 		.section-list {
 			font-size: 18px;
 			margin-left:7.5%;
-		}
-
-		#resource-selector {
-			display: block;
 		}
 
 		nav {
