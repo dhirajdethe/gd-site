@@ -1,6 +1,4 @@
-
-	$(document).ready( function() {
-
+    $(document).ready( function() {
 		//Initializes Variables
 		var vHeight = $(window).height();
 		var vWidth = $(window).width();

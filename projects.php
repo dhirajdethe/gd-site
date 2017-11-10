@@ -8,57 +8,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <!-- Need site verification from Google -->
-    <meta name="google-site-verification" content="" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <meta name="keywords" content="design research, typography, statical, mathematical, modelling">
-    <meta name="description" content="Official website of Prof. Girish Dalvi, general information about the website">
+<?php
+    $page_title = "Projects";
+    include("_includes/head.php");
+?>
 
-    <title>Girish Dalvi | Projects</title>
-
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Spectral:400,700" rel="stylesheet">
-</head>
 <body>
 
-<nav>
-    <div id="nav-container">
-        <div id="nav-header-band">
-            <!--<div id="nav-title-band">
-                <span id="header-title" class="spectral-400">Girish Dalvi</span>
-            </div>-->
-        </div>
-
-        <div id="nav-list-container">
-            <ul id="nav-list">
-                <li class="nav-list-items">
-                    <a class="nav-list-links" href="index.php">HOME</a>
-                </li>
-                <li class="nav-list-items">
-                    <a class="nav-list-links" href="academic.php">ACADEMIC</a>
-                </li>
-                <li class="nav-list-items">
-                    <a  class="nav-list-links" href="research.php">RESEARCH</a>
-                </li>
-                <li class="nav-list-items">
-                    <a  class="nav-list-links active-nav-link" href="projects.php">PROJECTS</a>
-                </li>
-
-                <li class="nav-list-items">
-                    <a  class="nav-list-links" href="resources.php">RESOURCES</a>
-                </li>
-            </ul>
-        </div>
-
-        <span id="transation-links">
-                    <a href="#" class="link">English</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="seperator">/</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">हिन्दी</a>  &nbsp;&nbsp;&nbsp;&nbsp;<span class="seperator">/</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">मराठी</a> </span>
-    </div>
-</nav>
+<?php include("_includes/nav.php"); ?>
 
 
 
@@ -159,13 +116,8 @@
     </div>
 </div>
 
+<?php include("_includes/js-scripts.php"); ?>
 
-<script
-    src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
-<script type="text/javascript" src="script/script.js"></script>
 <script type="text/javascript">
     $("#projects-container").filterizr(projectFilterOptions);
 </script>

@@ -2,53 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <!-- Need site verification from Google -->
-    <meta name="google-site-verification" content="" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <meta name="keywords" content="design research, typography, statical, mathematical, modelling">
-    <meta name="description" content="Official website of Prof. Girish Dalvi, general information about the website">
+<?php
+    $page_title = "Home";
+    include("_includes/head.php");
+?>
 
-    <title>Girish Dalvi | Home</title>
 
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Spectral:400,700" rel="stylesheet">
-</head>
 <body>
 
-<nav>
-
-    <div id="nav-container">
-        <div id="nav-list-container">
-            <ul id="nav-list">
-                <li class="nav-list-items">
-                    <a class="nav-list-links  active-nav-link" href="index.php">HOME</a>
-                </li>
-                <li class="nav-list-items">
-                    <a class="nav-list-links" href="academic.php">ACADEMIC</a>
-                </li>
-                <li class="nav-list-items">
-                    <a  class="nav-list-links" href="research.php">RESEARCH</a>
-                </li>
-                <li class="nav-list-items">
-                    <a  class="nav-list-links" href="projects.php">PROJECTS</a>
-                </li>
-
-                <li class="nav-list-items">
-                    <a  class="nav-list-links" href="resources.php">RESOURCES</a>
-                </li>
-            </ul>
-        </div>
-
-        <span id="transation-links">
-                    <a href="#" class="link">English</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="seperator">/</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">हिन्दी</a>  &nbsp;&nbsp;&nbsp;&nbsp;<span class="seperator">/</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">मराठी</a>
-        </span>
-    </div>
-</nav>
+<?php include("_includes/nav.php"); ?>
 
 <div class="page">
 
@@ -87,10 +49,7 @@
 </div>
 
 
-<script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-<script type="text/javascript" src="script/script.js"></script>
+<?php include("_includes/js-scripts.php"); ?>
+
 </body>
 </html>

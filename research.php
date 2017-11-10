@@ -3,60 +3,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <!-- Need site verification from Google -->
-    <meta name="google-site-verification" content="" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <meta name="keywords" content="design research, typography, statical, mathematical, modelling">
+<?php
+    $page_title = "Research";
+    include("_includes/head.php");
+?>
 
-
-    <meta name="description" content="Official website of Prof. Girish Dalvi, general information about the website">
-
-    <title>Girish Dalvi | Research</title>
-
-
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Spectral:400,700" rel="stylesheet">
-</head>
 <body>
 
-<nav>
-    <div id="nav-container">
-        <div id="nav-header-band">
-            <!--<div id="nav-title-band">
-                <span id="header-title" class="spectral-400">Girish Dalvi</span>
-            </div>-->
-        </div>
-
-        <div id="nav-list-container">
-            <ul id="nav-list">
-                <li class="nav-list-items">
-                    <a class="nav-list-links" href="index.php">HOME</a>
-                </li>
-                <li class="nav-list-items">
-                    <a class="nav-list-links" href="academic.php">ACADEMIC</a>
-                </li>
-                <li class="nav-list-items">
-                    <a  class="nav-list-links active-nav-link" href="research.php">RESEARCH</a>
-                </li>
-                <li class="nav-list-items">
-                    <a  class="nav-list-links" href="projects.php">PROJECTS</a>
-                </li>
-
-                <li class="nav-list-items">
-                    <a  class="nav-list-links" href="resources.php">RESOURCES</a>
-                </li>
-            </ul>
-        </div>
-
-        <span id="transation-links">
-                    <a href="#" class="link">English</a> &nbsp;&nbsp;&nbsp;&nbsp;<span class="seperator">/</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">हिन्दी</a>  &nbsp;&nbsp;&nbsp;&nbsp;<span class="seperator">/</span>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#" class="link">मराठी</a> </span>
-        </div>
-</nav>
+<?php include("_includes/nav.php"); ?>
 
 <div class="page">
 
@@ -97,71 +51,29 @@
                 </ul>
                 <div class="top-gradient-2"></div>
 
+                <div id="publication-container-1" class="publication-container">
+                    <ul class="publication-list">
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025482">Chameleon Devices: Investigating More Secure and Discreet Mobile Interactions via Active Camouflaging</a> ; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Pearson, J., Robinson, S., Jones, M., Joshi, A., Ahire, S. Sahoo, D., Subramanian, S.;
+                            <i class="fa mention fa-star"></i>&nbsp;<span class="honour-text">This paper got an Honorable Mention award</span>
+                        </li>
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
+                            <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
+                        </li>
+                    </ul>
+                </div>
 
-                <ul class="publication-list">
-                    <li class="publication-list-items">
-                        <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025482">Chameleon Devices: Investigating More Secure and Discreet Mobile Interactions via Active Camouflaging</a> ; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                        Pearson, J., Robinson, S., Jones, M., Joshi, A., Ahire, S. Sahoo, D., Subramanian, S.;
-                        <i class="fa mention fa-star"></i>&nbsp;<span class="honour-text">This paper got an Honorable Mention award</span>
-                    </li>
-                    <li class="publication-list-items">
-                        <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                        Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                        <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
-                    </li>
-                    <li class="publication-list-items">
-                        <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                        Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                        <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
-                    </li>
-
-                    <li class="publication-list-items">
-                        <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                        Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                        <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
-                    </li>
-
-                    <li class="publication-list-items">
-                         <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                         Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                         <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
-                    </li>
-
-                    <li class="publication-list-items">
-                        <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                        Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                        <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
-                    </li>
-
-                    <li class="publication-list-items">
-                        <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                        Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                        <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
-                    </li>
-
-                    <li class="publication-list-items">
-                        <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                        Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                        <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
-                    </li>
-
-                    <li class="publication-list-items">
-                        <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                        Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                        <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
-                    </li>
-                </ul>
             </section>
         </div>
     </div>
 </div>
 
 
-<script
-    src="https://code.jquery.com/jquery-1.12.4.min.js"
-    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
-<script src="https://use.fontawesome.com/5a437df92c.js"></script>
+<?php include("_includes/js-scripts.php"); ?>
+
 <script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>
