@@ -238,13 +238,13 @@
     $(window).scroll(function(){
         if (scroll > devnagriSectionHeight) {
             $("#resource-selector").fadeIn(250);
-            if (scroll < typographySectionHeight) {
+            if (scroll < typographySectionHeight - 50) {
                 $("#resource-selector").val("devanagari");
-            } else if (scroll < historiographySectionHeight) {
+            } else if (scroll < historiographySectionHeight -50) {
                 $("#resource-selector").val("typography-history");
-            } else if (scroll < bookspapersSectionHeight) {
+            } else if (scroll < bookspapersSectionHeight - 50) {
                 $("#resource-selector").val("historiography");
-            } else if (scroll < latintypeSectionHeight) {
+            } else if (scroll < latintypeSectionHeight - 50) {
                 $("#resource-selector").val("books-papers");
             } else  {
                 $("#resource-selector").val("latin-type-design");
