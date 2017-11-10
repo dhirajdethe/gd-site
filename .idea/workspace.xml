@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f8e2c0-0811-4258-a745-92bf1aab63ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academic.php" afterPath="$PROJECT_DIR$/academic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.php" afterPath="$PROJECT_DIR$/projects.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.php" afterPath="$PROJECT_DIR$/resources.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/script.js" afterPath="$PROJECT_DIR$/script/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +14,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
-              <caret line="196" column="20" lean-forward="false" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
+              <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="235" column="76" lean-forward="false" selection-start-line="235" selection-start-column="76" selection-end-line="235" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -34,7 +38,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hamburger-menu-container</find>
       <find>#resource-selector</find>
       <find>selec</find>
       <find>resource-selector</find>
@@ -64,6 +67,7 @@
       <find>project-container-link</find>
       <find>gradient</find>
       <find>nav</find>
+      <find>c-hamburger</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,8 +92,8 @@
         <option value="$PROJECT_DIR$/academic.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/projects.php" />
-        <option value="$PROJECT_DIR$/resources.php" />
         <option value="$PROJECT_DIR$/script/script.js" />
+        <option value="$PROJECT_DIR$/resources.php" />
       </list>
     </option>
   </component>
@@ -247,12 +251,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510022833034</updated>
       <workItem from="1510022835921" duration="1332000" />
-      <workItem from="1510303124673" duration="13072000" />
+      <workItem from="1510303124673" duration="13307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49578000" />
+    <option name="totallyTimeSpent" value="49813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -484,14 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -509,7 +505,15 @@
     <entry file="file://$PROJECT_DIR$/script/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="196" column="20" lean-forward="false" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="235" column="76" lean-forward="false" selection-start-line="235" selection-start-column="76" selection-end-line="235" selection-end-column="76" />
           <folding />
         </state>
       </provider>
