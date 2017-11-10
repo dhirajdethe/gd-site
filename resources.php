@@ -229,11 +229,11 @@
 <script type="text/javascript" src="script/script.js"></script>
 
 <script type="text/javascript">
-    var devnagriSectionHeight = $("#resources-section-1").offset().top;
-    var typographySectionHeight = $("#resources-section-2").offset().top;
-    var historiographySectionHeight = $("#resources-section-3").offset().top;
-    var bookspapersSectionHeight = $("#resources-section-4").offset().top;
-    var latintypeSectionHeight = $("#resources-section-5").offset().top;
+    var devnagriSectionHeight = $("#resources-section-1").offset().top - 20;
+    var typographySectionHeight = $("#resources-section-2").offset().top - 20;
+    var historiographySectionHeight = $("#resources-section-3").offset().top - 20;
+    var bookspapersSectionHeight = $("#resources-section-4").offset().top - 20;
+    var latintypeSectionHeight = $("#resources-section-5").offset().top - 20;
 
     $(window).scroll(function(){
         if (scroll > devnagriSectionHeight) {
