@@ -229,15 +229,15 @@
 <script type="text/javascript" src="script/script.js"></script>
 
 <script type="text/javascript">
-    var devnagriSectionHeight = $("#resources-section-1").offset().top - 90;
-    var typographySectionHeight = $("#resources-section-2").offset().top - 90;
-    var historiographySectionHeight = $("#resources-section-3").offset().top - 90;
-    var bookspapersSectionHeight = $("#resources-section-4").offset().top - 90;
-    var latintypeSectionHeight = $("#resources-section-5").offset().top - 90;
+    var devnagriSectionHeight = $("#resources-section-1").offset().top;
+    var typographySectionHeight = $("#resources-section-2").offset().top;
+    var historiographySectionHeight = $("#resources-section-3").offset().top;
+    var bookspapersSectionHeight = $("#resources-section-4").offset().top;
+    var latintypeSectionHeight = $("#resources-section-5").offset().top;
 
     $(window).scroll(function(){
         if (scroll > devnagriSectionHeight) {
-            $("#resource-selector").fadeIn(250);
+            $("#resource-selector").show();
             if (scroll < typographySectionHeight - 50) {
                 $("#resource-selector").val("devanagari");
             } else if (scroll < historiographySectionHeight -50) {
@@ -251,7 +251,7 @@
             }
         } else {
             $("#resource-selector").val(" --- ");
-            $("#resource-selector").fadeOut(250);
+            $("#resource-selector").hide();
         }
     });
 </script>

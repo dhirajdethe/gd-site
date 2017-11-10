@@ -127,15 +127,15 @@
         $("#resource-selector").change(function(e){
             e.preventDefault();
             if ($(this).val() == "devanagari") {
-                $('html, body').scrollTop(devnagriSectionHeight + 50);
+                $('html, body').scrollTop(devnagriSectionHeight);
             } else if ($(this).val() == "typography-history") {
-                $('html, body').scrollTop(typographySectionHeight + 50);
+                $('html, body').scrollTop(typographySectionHeight);
             } else if ($(this).val() == "historiography") {
-                $('html, body').scrollTop(historiographySectionHeight + 50);
+                $('html, body').scrollTop(historiographySectionHeight);
             } else if ($(this).val() == "books-papers") {
-                $('html, body').scrollTop(bookspapersSectionHeight + 50);
+                $('html, body').scrollTop(bookspapersSectionHeight);
             } else if ($(this).val() == "latin-type-design") {
-                $('html, body').scrollTop(latintypeSectionHeight + 50);
+                $('html, body').scrollTop(latintypeSectionHeight);
             }
         });
 
