@@ -160,16 +160,22 @@
 
             if (vWidth < 768) {
                 var resourceContainer = $(this).attr('href');
+                console.log(resourceContainer);
                 if (resourceContainer == "#resources-section-1") {
                     $("#resource-selector").val("devanagari");
+                    $('html, body').scrollTop($("#resources-section-1").offset().top - 90);
                 } else if (resourceContainer == "#resources-section-2") {
                     $("#resource-selector").val("typography-history");
+                    $('html, body').scrollTop($("#resources-section-2").offset().top - 90);
                 } else if (resourceContainer == "#resources-section-3") {
                     $("#resource-selector").val("historiography");
+                    $('html, body').scrollTop($("#resources-section-3").offset().top - 90);
                 } else if (resourceContainer == "#resources-section-4") {
                     $("#resource-selector").val("books-papers");
+                    $('html, body').scrollTop($("#resources-section-4").offset().top - 90);
                 } else if (resourceContainer == "#resources-section-5") {
                     $("#resource-selector").val("latin-type-design");
+                    $('html, body').scrollTop($("#resources-section-5").offset().top - 90);
                 }
             } else {
                 var top = $('body').find($(this).attr('href')).offset().top - 65;
