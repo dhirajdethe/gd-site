@@ -227,18 +227,15 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
-
 <script type="text/javascript">
-    var devnagriSectionHeight = $("#resources-section-1").offset().top;
-    var typographySectionHeight = $("#resources-section-2").offset().top;
-    var historiographySectionHeight = $("#resources-section-3").offset().top;
-    var bookspapersSectionHeight = $("#resources-section-4").offset().top;
-    var latintypeSectionHeight = $("#resources-section-5").offset().top;
+    var devnagriSectionHeight = $("#resources-section-1").offset().top - 90;
+    var typographySectionHeight = $("#resources-section-2").offset().top - 90;
+    var historiographySectionHeight = $("#resources-section-3").offset().top - 90;
+    var bookspapersSectionHeight = $("#resources-section-4").offset().top - 90;
+    var latintypeSectionHeight = $("#resources-section-5").offset().top - 90;
 
     $(window).scroll(function(){
-        if (scroll > devnagriSectionHeight) {
-            $("#resource-selector").show();
-            if (scroll < typographySectionHeight {
+        if (scroll < typographySectionHeight) {
                 $("#resource-selector").val("devanagari");
             } else if (scroll < historiographySectionHeight) {
                 $("#resource-selector").val("typography-history");
@@ -249,10 +246,6 @@
             } else  {
                 $("#resource-selector").val("latin-type-design");
             }
-        } else {
-            $("#resource-selector").val(" --- ");
-            $("#resource-selector").hide();
-        }
     });
 </script>
 
