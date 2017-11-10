@@ -24,7 +24,7 @@
 
 
         <div id="hamburger-content-band">
-            <div id="mobile-selector">
+            <div id="mobile-selector" class="sans-serif">
                 <select id="research-selector" class="mobile-dropdown-nav">
                     <option value="research.php" selected>ALL PUBLICATIONS</option>
                     <option value="research/hci-for-dev.php">HCI FOR DEVELOPMENT</option>
@@ -40,36 +40,94 @@
         </div>
     </div>
 
-    <div class="top-gradient"></div>
+<!--    <div class="top-gradient"></div>-->
     <div class="page-container">
         <div class="page-content">
             <section>
                 <h1 class="section-header">
-                    Research - All Publications
+                    My Research Publications
                 </h1>
                 
-                <ul id="research-domain-list">
-                    <li><a href="research.php" class="link research-domain-list-active">ALL PUBLICATIONS</a></li>
-                    <li><a href="research/hci-for-dev.php" class="link">DESIGN FOR DEVELOPMENT</a></li>
-                    <li class="center-text"><a href="research/hci-se.php" class="link">HCI + SE</a></li>
-                    <li class="center-text"><a href="research/other.php" class="link">OTHERS</a></li>
+                <ul id="research-domain-list" class="sans-serif">
+                    <li><a href="#" class="link research-link link-active" data-publication-container-active="publication-container-1">ALL PUBLICATIONS</a></li>
+                    <li><a href="#" class="link research-link" data-publication-container-active="publication-container-2">DESIGN FOR DEVELOPMENT</a></li>
+                    <li class="center-text"><a href="#" class="link research-link" data-publication-container-active="publication-container-3">HCI + SE</a></li>
+                    <li class="center-text"><a href="#" class="link research-link" data-publication-container-active="publication-container-4">OTHERS</a></li>
                 </ul>
-                <div class="top-gradient-2"></div>
+
+<!--                <div class="top-gradient-2"></div>-->
 
                 <div id="publication-container-1" class="publication-container">
                     <ul class="publication-list">
                         <li class="publication-list-items">
                             <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025482">Chameleon Devices: Investigating More Secure and Discreet Mobile Interactions via Active Camouflaging</a> ; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
                             Pearson, J., Robinson, S., Jones, M., Joshi, A., Ahire, S. Sahoo, D., Subramanian, S.;
-                            <i class="fa mention fa-star"></i>&nbsp;<span class="honour-text">This paper got an Honorable Mention award</span>
+                            <span class="mention">⭐</span>&nbsp;<span class="honour-text">This paper got an Honorable Mention award</span>
                         </li>
                         <li class="publication-list-items">
                             <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
                             Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
-                            <i class="fa award fa-trophy"></i>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
+                            <span class="award">🏆</span>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
+                        </li>
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025482">Chameleon Devices: Investigating More Secure and Discreet Mobile Interactions via Active Camouflaging</a> ; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Pearson, J., Robinson, S., Jones, M., Joshi, A., Ahire, S. Sahoo, D., Subramanian, S.;
+                            <span class="mention">⭐</span>&nbsp;<span class="honour-text">This paper got an Honorable Mention award</span>
+                        </li>
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
+                            <span class="award">🏆</span>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
                         </li>
                     </ul>
                 </div>
+
+                <div id="publication-container-2" class="publication-container hide-initially">
+                    <ul class="publication-list">
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025482">Chameleon Devices: Investigating More Secure and Discreet Mobile Interactions via Active Camouflaging</a> ; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Pearson, J., Robinson, S., Jones, M., Joshi, A., Ahire, S. Sahoo, D., Subramanian, S.;
+                            <span class="mention">⭐</span>&nbsp;<span class="honour-text">This paper got an Honorable Mention award</span>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div id="publication-container-3" class="publication-container hide-initially">
+                    <ul class="publication-list">
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025482">Chameleon Devices: Investigating More Secure and Discreet Mobile Interactions via Active Camouflaging</a> ; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Pearson, J., Robinson, S., Jones, M., Joshi, A., Ahire, S. Sahoo, D., Subramanian, S.;
+                            <span class="mention">⭐</span>&nbsp;<span class="honour-text">This paper got an Honorable Mention award</span>
+                        </li>
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
+                            <span class="award">🏆</span>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
+                        </li>
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
+                            <span class="award">🏆</span>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="publication-container-4" class="publication-container hide-initially">
+                    <ul class="publication-list">
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025482">Chameleon Devices: Investigating More Secure and Discreet Mobile Interactions via Active Camouflaging</a> ; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Pearson, J., Robinson, S., Jones, M., Joshi, A., Ahire, S. Sahoo, D., Subramanian, S.;
+                            <span class="mention">⭐</span>&nbsp;<span class="honour-text">This paper got an Honorable Mention award</span>
+                        </li>
+                        <li class="publication-list-items">
+                            <a class="link" target="_blank" href="http://dl.acm.org/citation.cfm?id=3025944">Shift+ Tap or Tap+ LongPress?: The Upper Bound of Typing Speed on InScript</a>; <a class="link" target="_blank" href="https://chi2017.acm.org/">CHI 2017</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                            Ghosh, S., Joshi, A., Joshi, M., Emmadi, N., Dalvi, G., Ahire, S., Rangale, S.;
+                            <span class="award">⭐</span>&nbsp;<span class="honour-text">This paper got the Best Case Study award</span>
+                        </li>
+                    </ul>
+                </div>
+
 
             </section>
         </div>
@@ -77,13 +135,8 @@
 </div>
 
 
-<script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
+<script type="text/javascript" src="script/jquery.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 
-<script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>

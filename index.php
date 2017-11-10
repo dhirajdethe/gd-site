@@ -33,7 +33,7 @@
     <div class="page-container">
         <div class="page-content">
             <p id="intro-text">
-                <span class="spectral-700">I am Girish</span>, an inter-disciplinary faculty of Design at the <a href="http://www.idc.iitb.ac.in/" class="link" target="_blank" >Industrial Design Centre (IDC),
+                <span class="weight-700">I am Girish</span>, an inter-disciplinary faculty of Design at the <a href="http://www.idc.iitb.ac.in/" class="link" target="_blank" >Industrial Design Centre (IDC),
                     IIT Bombay</a>. I teach subjects in the area of Visual Design, Interaction Design and Design research.<br/><br/>
 
                 My research interests in the domain of Visual design are: Devanagari Typography (History,
@@ -54,11 +54,7 @@
 </div>
 
 
-<script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
+<script type="text/javascript" src="script/jquery.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 
 </body>

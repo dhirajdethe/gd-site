@@ -1,5 +1,5 @@
 
-<nav>
+<nav class="sans-serif">
     <div id="nav-container">
         <div id="nav-list-container">
             <ul id="nav-list">

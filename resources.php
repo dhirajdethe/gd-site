@@ -228,20 +228,8 @@
     </div>
 </div>
 
-
-
-<script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-<script
-        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-        crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
+<script type="text/javascript" src="script/jquery.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
-
-
 
 <script type="text/javascript">
     var devnagriSectionHeight = $("#resources-section-1").offset().top - 120;
@@ -249,7 +237,6 @@
     var historiographySectionHeight = $("#resources-section-3").offset().top - 120;
     var bookspapersSectionHeight = $("#resources-section-4").offset().top - 120;
     var latintypeSectionHeight = $("#resources-section-5").offset().top - 120;
-
 
     $(window).scroll(function(){
 
@@ -273,7 +260,6 @@
     });
 </script>
 
-<!--<script type="text/javascript" src="script/script.js"></script>-->
 
 </body>
 </html>

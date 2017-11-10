@@ -20,6 +20,7 @@
 
 	body {
 		color: #333;
+		font-family: Georgia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", serif;
 	}
 
 
@@ -32,28 +33,13 @@
 		text-align: center;
 	}
 
-	.spectral-400 {
-		font-family: 'Spectral', serif;
-		font-weight: 400;
-	}
-
-	.spectral-700 {
-		font-family: 'Spectral', serif;
+	.weight-700 {
 		font-weight: 700;
 	}
 
-	.lato-400 {
-		font-family: 'Lato', sans-serif;
-		font-weight: 400;
+	.sans-serif {
+		font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 	}
-
-	.lato-700 {
-		font-family: 'Lato', sans-serif;
-		font-weight: 700;
-	}
-
-
-
 
 
 /* =========== ANCHOR LINKS =========== */
@@ -170,7 +156,6 @@
 
 					.nav-list-links {
 						text-decoration: none;
-						font-family: 'Lato', sans-serif;
 						color: #666;
 						font-size: 14px;
 						padding: 8px 8px 8px 0;
@@ -189,7 +174,6 @@
 					}
 
 						#transation-links {
-							font-family: 'Lato', sans-serif;
 							font-size: 12px;
 							margin: 0 auto 0 10%;
 						}
@@ -223,8 +207,7 @@
 
 		.copy-text {
 			font-size: 18px;
-			font-family: 'Spectral', serif;
-			line-height: 42px;
+			line-height: 38px;
 		}
 
 
@@ -235,20 +218,17 @@
 
 		.section-header {
 			font-size: 16px;
-			/* font-family: 'Spectral', serif; */
 			margin-bottom: 60px;
 			font-weight: 700;
-			font-family: 'Lato', sans-serif;
+			font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 		}
 			.section-list {
 				/*list-style-type: none;*/
-				/* font-family: 'Lato', sans-serif; */
 				font-size: 18px;
-				font-family: 'Spectral', serif;
 				margin-left:2.5%;
 			}
 				.section-list-items {
-					margin-bottom: 30px;
+					margin-bottom: 24px;
 				}
 
 		.section-seperator {
@@ -268,14 +248,12 @@
 
 #intro-text {
 	font-size: 18px;
-	font-family: 'Spectral', serif;
-	line-height: 42px;
+	line-height: 38px;
 }
 
 
 		#resource-list {
 			margin-top: 40px;
-			font-family: 'Lato', sans-serif;
 			font-size: 16px;
 			margin-left: 20px;
 		}
@@ -296,6 +274,7 @@
 		}
 		.publication-list-items {
 			margin-bottom: 40px;
+			line-height: 24px;
 		}
 
 	#hamburger-menu-container {
@@ -306,7 +285,6 @@
 
 	#research-domain-list{
 		list-style-type: none;
-		font-family: 'Lato', sans-serif;
 		font-size: 12px;
 		font-weight: 700;
 		margin-bottom: 80px;
@@ -318,18 +296,13 @@
 		width: 24%;
 	}
 
-		.research-domain-list-active {
-			color: #2574A9;
-			border-bottom: 2px solid #2574A9;
-			padding-bottom: 10px;
-		}
 
-
-
+	.hide-initially {
+		display: none;
+	}
 
 	#projects-list{
 		list-style-type: none;
-		font-family: 'Lato', sans-serif;
 		font-size: 12px;
 		font-weight: 700;
 		margin-bottom: 80px;
@@ -341,7 +314,7 @@
 		width: 24%;
 	}
 
-	.projects-list-active {
+	.link-active {
 		color: #2574A9;
 		border-bottom: 2px solid #2574A9;
 		padding-bottom: 10px;
@@ -376,7 +349,6 @@
 		}
 
 		#project-content-project-desc {
-			font-family: 'Spectral', serif;
 		}
 
 		.project-images {
@@ -385,7 +357,7 @@
 			background: #cccccc;
 		}
 		.mention {
-			color: silver;
+			color: #3498db;
 		}
 
 		.award {
@@ -393,7 +365,6 @@
 		}
 
 		.honour-text {
-			font-family: 'Lato', sans-serif;
 			font-size: 12px;
 		}
 
@@ -533,10 +504,7 @@
 	@media only screen and (max-width: 640px) {
 
 		.section-list {
-			/*list-style-type: none;*/
-			/* font-family: 'Lato', sans-serif; */
 			font-size: 18px;
-			font-family: 'Spectral', serif;
 			margin-left:7.5%;
 		}
 

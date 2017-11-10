@@ -1,4 +1,5 @@
     $(document).ready( function() {
+
 		//Initializes Variables
 		var vHeight = $(window).height();
 		var vWidth = $(window).width();
@@ -183,9 +184,7 @@
             }
 
 
-            $('html, body').animate({
-                scrollTop: top
-            },1000, 'easeInOutCirc');
+            $('html, body').scrollTop(top);
 
 
         });
@@ -270,13 +269,24 @@
 
         $(".projects-link").on("click", function(e){
             e.preventDefault();
-
-            $(".projects-link").removeClass("projects-list-active");
-            $(this).addClass("projects-list-active");
-
+            $(".projects-link").removeClass("link-active");
+            $(this).addClass("link-active");
             var projectCategory = $(this).data("category");
             projectFilterOptions.filter = projectCategory;
             $("#projects-container").filterizr(projectFilterOptions);
         });
+
+        $(".research-link").on("click", function(e){
+            e.preventDefault();
+            $(".research-link").removeClass("link-active");
+            $(this).addClass("link-active");
+
+            $(".publication-container").hide();
+            var containerActive = $(this).data("publication-container-active");
+            console.log(containerActive);
+            $("#" + containerActive).show();
+        });
+
+
 
 	});

@@ -72,8 +72,8 @@
                 My Projects
             </h1>
 
-            <ul id="projects-list">
-                <li><a data-category="all" href="#" class="link projects-list-active projects-link">ALL PROJECTS</a></li>
+            <ul id="projects-list" class="sans-serif">
+                <li><a data-category="all" href="#" class="link link-active projects-link">ALL PROJECTS</a></li>
                 <li><a data-category="1" href="#" class="link  projects-link">PROJECT CATEGORY 1 </a></li>
                 <li class="center-text"><a data-category="2" href="#" class="link projects-link">PROJECT CATEGORY 2</a></li>
                 <li class="center-text"><a data-category="3" href="#" class="link projects-link">PROJECT CATEGORY 3</a></li>
@@ -121,15 +121,12 @@
     </div>
 </div>
 
-<script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
+<script type="text/javascript" src="script/jquery.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
-
 <script type="text/javascript">
     $("#projects-container").filterizr(projectFilterOptions);
 </script>
+
 </body>
 </html>
