@@ -27,18 +27,14 @@
 <div id="project-modal-container">
 
     <div id="project-modal-content">
-        <div id="project-header" class="lato-400 project-content-header-box">
-            <h1 id="project-content-project-name"></h1><br/>
+        <div id="project-header" class="project-content-header-box">
+            <h1 id="project-content-project-name" class="sans-serif"></h1><br/>
             <p id="project-content-project-desc"></p>
         </div>
 
-        <a id="project-modal-close" href="#" class="lato-400">X</a>
+        <a id="project-modal-close" href="#"" class="monospace">X</a>
 
         <div id="project-img-master-container">
-
-
-
-
 
         </div>
 
@@ -115,8 +111,8 @@
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.2.5/jquery.filterizr.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="script/filterizr.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){

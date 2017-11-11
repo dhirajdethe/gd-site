@@ -70,15 +70,13 @@
 
         $("#project-modal-close").on("click", function(e){
            e.preventDefault();
-            $("#project-content-project-name").html("");
-            $("#project-content-project-desc").html("");
-            $("#project-img-master-container").html("");
-            $("#project-modal-container").show(function(){
+            $("#project-modal-container").fadeOut(0, function(){
                 $("nav").show();
                 $(".page").show();
             });
-
-
+            $("#project-content-project-name").html("");
+            $("#project-content-project-desc").html("");
+            $("#project-img-master-container").html("");
         });
 
         $(document).keyup(function(e) {
@@ -222,7 +220,7 @@
         $("nav").show();
 
         var projectFilterOptions = {
-            animationDuration: 0.5, //in seconds
+            animationDuration: 0, //in seconds
             filter: 'all', //Initial filter
             callbacks: {
                 onFilteringStart: function() { },
