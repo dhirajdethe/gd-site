@@ -9,7 +9,7 @@
     include("_includes/meta.php");
 
     ?>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/style.min.css">
 </head>
 <body>
 
@@ -114,9 +114,7 @@
                     <li class="book-list-items">Shedge, Kamal. <span class="book-list-text-highlight">कमलाक्षरं (Kamalaakshar).</span> राजेंद्र प्रकाशन, मुंबई, २००९.</li>
                 </ul>
             </section>
-
             <div class="section-seperator"></div>
-
             <section id="resources-section-2">
                 <h1 class="section-header">
                     History of Typography / Books / Scripts
@@ -143,9 +141,7 @@
                     <li class="book-list-items">Wakankar, Laxman S. Ganesh-Vidya: The Traditional Indian Approach to Phonetic Writing. Tata Press/ Script Study Group, Mumbai, 1968.</li>
                 </ul>
             </section>
-
             <div class="section-seperator"></div>
-
             <section id="resources-section-3">
                 <h1 class="section-header">
                     Historiography / Book History / Type + Culture / Text + Culture / Post-Colonial Studies
@@ -175,9 +171,7 @@
                     <li class="book-list-items">Venkatachalapathy, A. R. The province of the book: scholars, scribes, and scribblers in colonial Tamilnadu. Permanent Black, 2012.</li>
                 </ul>
             </section>
-
             <div class="section-seperator"></div>
-
             <section id="resources-section-4">
                 <h1 class="section-header">
                     Other Books / Technical Papers
@@ -191,9 +185,7 @@
                     <li class="book-list-items">Parida, Laxmi. Vinyas: An Interactive Calligraphic Type Design System. Proc. of the International Conference on Computer Graphics (ICCG 93), pp 355-368, North-Holland Publishing, 1993.</li>
                 </ul>
             </section>
-
             <div class="section-seperator"></div>
-
             <section id="resources-section-5">
                 <h1 class="section-header">
                     Latin Type Design + Typography Books
@@ -218,16 +210,10 @@
                     <li class="book-list-items">Spikermann, Erik and E.M. Ginger. Stop Stealing Sheep and Find Out How Type Works. 2nd edition. Adobe Press, 2003</li>
                 </ul>
             </section>
-
-
-
         </div>
     </div>
 </div>
-
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="script/script.js"></script>
-
-
+<script type="text/javascript" src="script/script.min.js"></script>
 </body>
 </html>

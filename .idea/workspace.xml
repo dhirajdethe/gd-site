@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="97f8e2c0-0811-4258-a745-92bf1aab63ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academic.php" afterPath="$PROJECT_DIR$/academic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.php" afterPath="$PROJECT_DIR$/projects.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research.php" afterPath="$PROJECT_DIR$/research.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.php" afterPath="$PROJECT_DIR$/resources.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,37 +19,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects.php">
+      <file leaf-file-name="research.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/research.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-              <folding>
-                <marker date="1510387657009" expanded="true" signature="2416:3012" ph="..." />
-                <marker date="1510387657009" expanded="true" signature="2416:3036" ph="..." />
-                <marker date="1510387657009" expanded="true" signature="2601:2746" ph="..." />
-                <marker date="1510387657009" expanded="true" signature="2747:3011" ph="..." />
-                <marker date="1510387657009" expanded="true" signature="2835:2978" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="2010">
+              <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/style.css">
+      <file leaf-file-name="resources.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="463" column="4" lean-forward="false" selection-start-line="463" selection-start-column="4" selection-end-line="463" selection-end-column="28" />
+            <state relative-caret-position="145">
+              <caret line="115" column="22" lean-forward="false" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -104,13 +92,15 @@
         <option value="$PROJECT_DIR$/_includes/js-scripts.php" />
         <option value="$PROJECT_DIR$/_includes/nav.php" />
         <option value="$PROJECT_DIR$/script/jquery.js" />
-        <option value="$PROJECT_DIR$/academic.php" />
-        <option value="$PROJECT_DIR$/resources.php" />
-        <option value="$PROJECT_DIR$/research.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/style/style.css" />
-        <option value="$PROJECT_DIR$/projects.php" />
         <option value="$PROJECT_DIR$/script/script.js" />
+        <option value="$PROJECT_DIR$/style/style.min.css" />
+        <option value="$PROJECT_DIR$/script/script.min.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/academic.php" />
+        <option value="$PROJECT_DIR$/projects.php" />
+        <option value="$PROJECT_DIR$/research.php" />
+        <option value="$PROJECT_DIR$/resources.php" />
       </list>
     </option>
   </component>
@@ -166,6 +156,42 @@
               <option name="myItemId" value="style" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gd-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gd-site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gd-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gd-site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -181,6 +207,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gd-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gd-site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -191,6 +231,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/style" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/script" />
     </key>
@@ -287,12 +330,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510022833034</updated>
       <workItem from="1510022835921" duration="1332000" />
-      <workItem from="1510303124673" duration="20166000" />
+      <workItem from="1510303124673" duration="21946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56672000" />
+    <option name="totallyTimeSpent" value="58452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -352,11 +395,11 @@
         <state relative-caret-position="1110">
           <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="45" />
           <folding>
-            <marker date="1510387657009" expanded="true" signature="2416:3012" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2416:3036" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2601:2746" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2747:3011" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2835:2978" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2420:3016" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2420:3040" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2605:2750" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2751:3015" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2839:2982" ph="..." />
           </folding>
         </state>
       </provider>
@@ -390,11 +433,11 @@
         <state relative-caret-position="233">
           <caret line="102" column="64" lean-forward="false" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="86" />
           <folding>
-            <marker date="1510387657009" expanded="true" signature="2416:3012" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2416:3036" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2601:2746" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2747:3011" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2835:2978" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2420:3016" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2420:3040" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2605:2750" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2751:3015" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2839:2982" ph="..." />
           </folding>
         </state>
       </provider>
@@ -519,64 +562,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources.php">
+    <entry file="file://$PROJECT_DIR$/style/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="227" column="30" lean-forward="false" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/research.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="137" column="31" lean-forward="false" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/academic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9141" lean-forward="false" selection-start-line="0" selection-start-column="9141" selection-end-line="0" selection-end-column="9141" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="463" column="4" lean-forward="false" selection-start-line="463" selection-start-column="4" selection-end-line="463" selection-end-column="28" />
+        <state relative-caret-position="383">
+          <caret line="460" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/script.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6028" lean-forward="false" selection-start-line="0" selection-start-column="6028" selection-end-line="0" selection-end-column="6028" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="271" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="149">
+          <caret line="111" column="60" lean-forward="false" selection-start-line="111" selection-start-column="60" selection-end-line="111" selection-end-column="60" />
           <folding>
-            <marker date="1510387657009" expanded="true" signature="2416:3012" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2416:3036" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2601:2746" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2747:3011" ph="..." />
-            <marker date="1510387657009" expanded="true" signature="2835:2978" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2420:3016" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2420:3040" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2605:2750" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2751:3015" ph="..." />
+            <marker date="1510391775271" expanded="true" signature="2839:2982" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/script.js">
+    <entry file="file://$PROJECT_DIR$/research.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="2010">
+          <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="115" column="22" lean-forward="false" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
           <folding />
         </state>
       </provider>
