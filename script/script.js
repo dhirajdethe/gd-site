@@ -31,16 +31,11 @@
             $("#project-content-project-name").html("");
             $("#project-content-project-desc").html("");
 
-
-
             var projectID = $(this).attr("id");
-
-            $("nav").hide();
-            $(".page").show(function (){
-                $("#project-modal-container").show();
-            });
-
             populateProject(projectID);
+            $("nav").hide();
+            $(".page").hide();
+            $("#project-modal-container").show();
         });
 
 
