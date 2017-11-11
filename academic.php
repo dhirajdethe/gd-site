@@ -11,17 +11,7 @@
     include("_includes/meta.php");
 
     ?>
-<!--    <link rel="stylesheet" type="text/css" href="style/style.min.css">-->
-
-    <style type="text/css">
-        body {
-            display: none;
-        }
-    </style>
-    <link rel="stylesheet" type="text/css"
-                           href="style/style.min.css" media="none"
-                           onload="if(media!='all')media='all'; document.body.style.display = 'block';">
-    <noscript><link rel="stylesheet" type="text/css" href="style/style.min.css"></noscript>
+    <link rel="stylesheet" type="text/css" href="style/style.min.css">
 
 </head>
 
