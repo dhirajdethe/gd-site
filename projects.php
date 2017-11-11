@@ -48,8 +48,6 @@
 
 
 <div class="page">
-
-
     <div id="hamburger-menu-container">
         <div id="hamburger-content-band">
             <div id="hamburger-menu">
