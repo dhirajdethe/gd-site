@@ -18,7 +18,7 @@
     </style>
     <link rel="stylesheet" type="text/css"
                            href="style/style.min.css" media="none"
-                           onload="if(media!='all')media='all'; document.body.style.display = 'block';">
+                           onload="if(media!='all')media='all';">
     <noscript><link rel="stylesheet" type="text/css" href="style/style.min.css"></noscript>
 </head>
 
