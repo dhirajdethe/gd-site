@@ -265,20 +265,21 @@
             if (categoryActive == "all") {
                 $(".publication-list-items").show();
                 console.log(categoryActive);
-            } {
+            } else {
                 $(".publication-list-items").hide();
                 $("." + categoryActive).show();
-                console.log(categoryActive);
+                console.log("LOL: " + categoryActive);
             }
-
         });
+
+
 
         $("#research-selector").change(function(){
             var categoryActive = $(this).val();
 
             if (categoryActive == "all") {
                 $(".publication-list-items").show();
-            } {
+            } else {
                 $(".publication-list-items").hide();
                 $("." + categoryActive).show();
             }
