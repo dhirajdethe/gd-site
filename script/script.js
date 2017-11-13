@@ -153,7 +153,6 @@
 
             if (vWidth < 768) {
                 var resourceContainer = $(this).attr('href');
-                console.log(resourceContainer);
                 if (resourceContainer == "#resources-section-1") {
                     $("#resource-selector").val("devanagari");
                     $('html, body').scrollTop($("#resources-section-1").offset().top - 90);
@@ -260,15 +259,12 @@
             $(this).addClass("link-active");
 
             var categoryActive = $(this).data("publication-category-active");
-            console.log(categoryActive);
 
             if (categoryActive == "all") {
                 $(".publication-list-items").show();
-                console.log(categoryActive);
             } else {
                 $(".publication-list-items").hide();
                 $("." + categoryActive).show();
-                console.log("LOL: " + categoryActive);
             }
         });
 
