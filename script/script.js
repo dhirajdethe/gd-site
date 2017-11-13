@@ -253,20 +253,35 @@
             $("#projects-container").filterizr(projectFilterOptions);
         });
 
+
         $(".research-link").on("click", function(e){
             e.preventDefault();
             $(".research-link").removeClass("link-active");
             $(this).addClass("link-active");
-            $(".publication-container").hide();
 
-            var containerActive = $(this).data("publication-container-active");
+            var categoryActive = $(this).data("publication-category-active");
+            console.log(categoryActive);
 
-            $("#" + containerActive).show();
+            if (categoryActive == "all") {
+                $(".publication-list-items").show();
+                console.log(categoryActive);
+            } {
+                $(".publication-list-items").hide();
+                $("." + categoryActive).show();
+                console.log(categoryActive);
+            }
+
         });
 
         $("#research-selector").change(function(){
-            var containerActive = $(this).val();
-            $(".publication-container").hide();
-            $("#" + containerActive).show();
+            var categoryActive = $(this).val();
+
+            if (categoryActive == "all") {
+                $(".publication-list-items").show();
+            } {
+                $(".publication-list-items").hide();
+                $("." + categoryActive).show();
+            }
         });
+
 	});
