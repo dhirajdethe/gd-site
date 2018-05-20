@@ -68,10 +68,9 @@
             </h1>
 
             <ul id="projects-list" class="sans-serif">
-                <li><a data-category="all" href="#" class="link link-active projects-link">ALL PROJECTS</a></li>
-                <li><a data-category="1" href="#" class="link  projects-link">PROJECT CATEGORY 1 </a></li>
-                <li class="center-text"><a data-category="2" href="#" class="link projects-link">PROJECT CATEGORY 2</a></li>
-                <li class="center-text"><a data-category="3" href="#" class="link projects-link">PROJECT CATEGORY 3</a></li>
+                <li><a data-category="all" href="#" class="link link-active projects-link">ALL</a></li>
+                <li><a data-category="1" href="#" class="link  projects-link">EK TYPE </a></li>
+                <li class="center-text"><a data-category="2" href="#" class="link projects-link">OTHERS</a></li>
             </ul>
 
 <!--            <div class="top-gradient-3"></div>-->
