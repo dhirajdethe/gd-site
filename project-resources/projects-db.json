@@ -7,7 +7,7 @@
     "projectDetails" : {
       "projectDesc" : "<br/> Jainī is a Devanāgarī typeface based on the calligraphic style of the Jain Kalpasūtra manuscripts. The design of this font is based on the 1503 Kalpasūtra manuscript. Jainī has several unique features not seen in Bāḻabodha, these include disconnected śirōrēkhā with triangular wedges, short upper mātrās, squarish letters with large kānā-height, heavy knots, and lower matrās integrated within the kānā height. Since the original manuscript uses letter-shapes which are not familiar to contemporary readers, these have been redesigned along with Latin numbers and punctuations.",
       "projectPicsFilenames" :
-          ["project-resources/project-files/project-1/jaini.png",
+          ["project-resources/project-files/project-1/jaini.png"
           ]
     }
   },
@@ -19,7 +19,7 @@
     "projectDetails" : {
       "projectDesc" : "<br/> Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari, Gujarati, Tamil and Latin scripts. This type family is a libre licensed version of Ek's self-titled multi-script project, an ongoing effort to develop a unified type family for each Indian script. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the fonts can be used successfully for both single and multi-script purposes. ",
       "projectPicsFilenames" :
-      ["project-resources/project-files/project-2/mukta final.png",
+      ["project-resources/project-files/project-2/mukta final.png"
       ]
     }
   },
@@ -31,7 +31,7 @@
     "projectDetails" : {
       "projectDesc" : "A perfect blend of pointy paws in a coat of fur, Baloo is an affable display typeface by Ek Type. Available in ten Indian scripts along with a Latin counterpart, the family is Unicode compliant and libre licensed. Baloo is a distinctive heavy spurless design with a subtle tinge of playfulness and all the bare necessities of type. Snuggling several scripts under a single weight, the typeface focuses on giving equal justice to every act of this gentle jungle affair to secure single and multi-script use. Carefree yet confident, warm yet entertaining, sprightly yet intelligible, Baloo infuses life everywhere it goes. The Baloo project develops ten separate fonts with unique local names for each of the ten Indic Scripts. Each font supports one Indic subset plus Latin, Latin Extended, and Vietnamese.",
       "projectPicsFilenames" :
-      ["project-resources/project-files/project-3/baloo final1.png",
+      ["project-resources/project-files/project-3/baloo final1.png"
       ]
     }
   },
@@ -41,10 +41,9 @@
     "projectCategory" : "1",
     "projectThumbnailURL" : "modak-min.jpg",
     "projectDetails" : {
-      "projectDesc" : " <br/>Modak is a sweet plump Devanagari+Latin display typeface with portly curves and thin counters. It is Unicode compliant and is open sourced under the SIL Open Font License v1.1.
-It began as a heavy hand-sketched letterform exploration in Devanagari with cute, adorable characters whose curves merged into each other, forming distinct counter shapes. As we translated these into a functional font, each character was fine-tuned and multiple matras designed to match precisely with every character. Unlike the conventional approach the post-base matras in Modak overlap the consonants. Likewise overlapping ukars were also designed leaving thin counters in between. Rather than being a mere composite of 2 separate glyphs, every conjunct was redrawn as a single entity. The challenge was to maintain legibility and consistency in the thin counter spaces across all characters, irrespective of their structural complexity. The resulting typeface is one of its kind and most likely the chubbiest Devanagari typeface to be designed so far",
+      "projectDesc" : " <br/>Modak is a sweet plump Devanagari+Latin display typeface with portly curves and thin counters. It is Unicode compliant and is open sourced under the SIL Open Font License v1.1. It began as a heavy hand-sketched letterform exploration in Devanagari with cute, adorable characters whose curves merged into each other, forming distinct counter shapes. As we translated these into a functional font, each character was fine-tuned and multiple matras designed to match precisely with every character. Unlike the conventional approach the post-base matras in Modak overlap the consonants. Likewise overlapping ukars were also designed leaving thin counters in between. Rather than being a mere composite of 2 separate glyphs, every conjunct was redrawn as a single entity. The challenge was to maintain legibility and consistency in the thin counter spaces across all characters, irrespective of their structural complexity. The resulting typeface is one of its kind and most likely the chubbiest Devanagari typeface to be designed so far",
       "projectPicsFilenames" :
-      ["project-resources/project-files/project-4/modak final one.png",
+      ["project-resources/project-files/project-4/modak final one.png"
       ]
     }
   },
@@ -56,7 +55,7 @@ It began as a heavy hand-sketched letterform exploration in Devanagari with cute
     "projectDetails" : {
       "projectDesc" : "<br/> Gotu is a calligraphic Devanagari font. It is licensed under the SIL Open Font License v1.1",
       "projectPicsFilenames" :
-          ["project-resources/project-files/project-5/gotu.png",
+          ["project-resources/project-files/project-5/gotu.png"
           ]
     }
   },
@@ -68,7 +67,7 @@ It began as a heavy hand-sketched letterform exploration in Devanagari with cute
     "projectDetails" : {
       "projectDesc" : "<br/> Shobhika is a free, open source, Unicode compliant, OpenType font with support for Devanāgarī, Latin, and Cyrillic scripts. It is available in two weights—regular and bold. The font is designed with over 1600 Devanāgarī glyphs, including support for over 1100 conjunct consonants, as well as vedic accents. The Latin component of the font not only supports a wide range of characters required for Roman transliteration of Sanskrit, but also provides a subset of regularly used mathematical symbols for scholars working with scientific and technical documents. The project has been launched under the auspices of the Science and Heritage Initiative (SandHI) at IIT Bombay, and builds upon the following two fonts for its Devanāgarī and Latin components respectively: (i) Yashomudra by Rājya Marāṭhī Vikās Saṃsthā, and (ii) PT Serif by ParaType. We would like to thank both these organisations for releasing their fonts under the SIL Open Font Licence, which has enabled us to create Shobhika.",
       "projectPicsFilenames" :
-          ["project-resources/project-files/project-6/shobhika final.png",
+          ["project-resources/project-files/project-6/shobhika final.png"
           ]
     }
   }

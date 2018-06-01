@@ -1,5 +1,5 @@
 <?php
-
+    
     $projectDBJSON = file_get_contents("project-resources/projects-db.json",true);
     $projectDB = json_decode($projectDBJSON, true);
 ?>

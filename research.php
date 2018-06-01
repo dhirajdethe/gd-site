@@ -55,8 +55,8 @@
                 <ul id="research-domain-list" class="sans-serif">
                     <li><a href="#" class="link research-link link-active" data-publication-category-active="all">ALL PUBLICATIONS</a></li>
                     <li><a href="#" class="link research-link" data-publication-category-active="publication-category-1">PAPERS</a></li>
-                    <li class="center-text"><a href="#" class="link research-link" data-publication-category-active="publication-category-2">ARTICLES</a></li>
-                    <li class="center-text"><a href="#" class="link research-link" data-publication-category-active="publication-category-3">PRESENTATIONS</a></li>
+                    <li><a href="#" class="link research-link" data-publication-category-active="publication-category-2">ARTICLES</a></li>
+                    <li><a href="#" class="link research-link" data-publication-category-active="publication-category-3">PRESENTATIONS</a></li>
                 </ul>
 
 <!--                <div class="top-gradient-2"></div>-->
