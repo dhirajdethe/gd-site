@@ -74,7 +74,6 @@
 <!--            <div class="top-gradient-3"></div>-->
 
             <div id="projects-container" class="">
-
                 <?php
                     $project_item_count = 0;
                     $end_class = "";
@@ -108,13 +107,6 @@
 </div>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" src="script/filterizr.js"></script>
-<script type="text/javascript" src="script/script.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $("#projects-container").filterizr(projectFilterOptions);
-    });
-</script>
-
+<script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>
