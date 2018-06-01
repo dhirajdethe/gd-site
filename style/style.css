@@ -386,7 +386,6 @@
 	.project-container-link {
 		display: inline-block;
 		width: 32%;
-		margin-bottom: 1.5%;
 		background: #ccc;
 		filter: grayscale(100%);
 		-webkit-filter: grayscale(100%);

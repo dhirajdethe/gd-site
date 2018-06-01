@@ -7,7 +7,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <?php
 
@@ -16,7 +15,6 @@
 
     ?>
     <link rel="stylesheet" type="text/css" href="style/style.min.css">
-
 </head>
 
 <body>
@@ -33,7 +31,7 @@
             <p id="project-content-project-desc"></p>
         </div>
 
-        <a id="project-modal-close" href="#"" class="monospace">X</a>
+        <a id="project-modal-close" href="#" class="monospace">X</a>
 
         <div id="project-img-master-container">
 
